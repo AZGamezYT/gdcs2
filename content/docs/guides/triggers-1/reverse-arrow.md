@@ -10,16 +10,13 @@ contributors:
   - eyz
   - naem.less
   - sparktwee
-description: This guide explains how the Reverse & Arrow triggers work. The
-  Reverse trigger lets you change the player's movement direction, while the
-  Arrow trigger lets you change the direction of gravity.
+description: This guide explains how the Reverse & Arrow triggers work. The Reverse trigger lets you change the player's movement direction, while the Arrow trigger lets you change the direction of gravity.
 tags:
   - Grade 1
   - Gameplay Triggers
 seo:
   title: How to Use Reverse and Arrow Triggers in Geometry Dash
-  description: Learn how Reverse and Arrow triggers change player direction and
-    movement behavior in Geometry Dash gameplay.
+  description: Learn how Reverse and Arrow triggers change player direction and movement behavior in Geometry Dash gameplay.
   canonical: ""
   noindex: false
 ---
@@ -38,13 +35,11 @@ seo:
 
 {{< img src="https://lh3.googleusercontent.com/d/1ckqDhwTumt2IHfk_9efgvfXlxElffrf7" >}}
 
-{{< img src="images/GDEmotes/Triggers/Reverse.png" >}}
-
- This is probably one of the simplest triggers in the game. Just place it down and the player goes backwards. However, it might be too simple that it also borders on useless. For example, placing two reverse triggers like below won’t work properly if you want the rightmost trigger to activate first:
+The Reverse trigger {{< img src="images/GDEmotes/Triggers/Reverse.png" class="emote" >}} is probably one of the simplest triggers in the game. Just place it down and the player goes backwards. However, it might be too simple that it also borders on useless. For example, placing two reverse triggers like below won’t work properly if you want the rightmost trigger to activate first:
 
 {{< img src="https://lh3.googleusercontent.com/d/1LZSQMhF_gTwSB8JmeVJg3vc2noc-tC9R" >}}
 
-This is because the reverse trigger placed on the left activates first. While you can use the **Touch Triggered** option to make your gameplay, this will mess up the music playtest line unless you change the [trigger order](https://www.gdcreatorschool.com/docs/guides/the-editor/using-channels/#trigger-order) or use an arrow trigger to change the target channel, which will be explained in a later section.
+This is because the reverse trigger placed on the left activates first. While you can use the **Touch Triggered** option to make your gameplay, this will mess up the music playtest line unless you change the [trigger order](/docs/guides/the-editor/using-channels/#trigger-order) or use an arrow trigger to change the target channel, which will be explained in a later section.
 
 {{< youtube cGpifgeiIX8 >}}
 

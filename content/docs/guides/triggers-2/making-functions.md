@@ -698,7 +698,7 @@ Now, the function $\verb|power_5|$ works for any exponent from 0 through 5, wher
 
 {{< youtube jpOoYlADYvc >}}
 
-Let's look at another example. If you recall the [ID to trigger values conversion setup](https://www.gdcreatorschool.com/docs/guides/triggers-2/stacking-properties/#id-to-trigger-values-conversion), you may have noticed that loop unrolling was applied there as well. There, we assumed a maximum allowed distance, in order to make the binary conversion in a 0-tick way. In fact, now that we've introduced more advanced ideas, we can condense the entire explanation of that setup with the following pseudocode:
+Let's look at another example. If you recall the [ID to trigger values conversion setup](/docs/guides/triggers-2/stacking-properties/#id-to-trigger-values-conversion), you may have noticed that loop unrolling was applied there as well. There, we assumed a maximum allowed distance, in order to make the binary conversion in a 0-tick way. In fact, now that we've introduced more advanced ideas, we can condense the entire explanation of that setup with the following pseudocode:
 
 ```c
 // n is the exponent of the largest power of two the setup considers

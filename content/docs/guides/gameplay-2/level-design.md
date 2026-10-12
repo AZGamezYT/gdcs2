@@ -4,7 +4,7 @@ authors:
   - intercomprehensible
 title: Game Design 1 (Level Design)
 seo:
-  title: What Is Level Design in Geometry Dash?
+  title: Level Design for Geometry Dash
   description: Learn the fundamentals of level design and how to shape player behavior and experience when building complex Geometry Dash gameplay.
   canonical: ""
   noindex: false

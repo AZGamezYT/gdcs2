@@ -74,7 +74,7 @@ It is important to realize that shaders do not change the actual gameplay; they 
 
 # 2: How to Use Shaders
 
-Learning what the different shader triggers do and can be found in Screen Filters in the Basic Triggers Section. We have a full guide on how to use and set up each shader trigger. If you don't know how to use one of them, you can read the guide [here](https://www.gdcreatorschool.com/docs/guides/triggers-1/screen-filters/).
+Learning what the different shader triggers do and can be found in Screen Filters in the Basic Triggers Section. We have a full guide on how to use and set up each shader trigger. If you don't know how to use one of them, you can read the guide [here](/docs/guides/triggers-1/screen-filters/).
 
 We won't go too in-depth as we already have a guide on how to use them, but here's how it works.
 
@@ -117,7 +117,7 @@ One important fact you should know is that you are not limited to the â€œnormalâ
 
 ## Shockwave/line Mask
 
-By using a Shockwave or Shockline Shader and setting it to a very high value (such as 10000 or 50000), you can hide any objects behind it. You can also configure what the shader mask affects by using the Shader Trigger and changing it so it only affects a specific Z Layer. 
+By using a Shockwave or Shockline Shader and setting it to a very high value (such as 10000 or 50000), you can hide any objects behind it. You can also configure what the shader mask affects by using the Shader Trigger and changing it so it only affects a specific Z Layer.
 
 This short video explains how it works in more depth.
 

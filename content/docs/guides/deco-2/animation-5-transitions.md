@@ -39,7 +39,7 @@ A level may have individual parts that vastly differ from each other, and yet st
 
 Have you ever turned off your room’s lights and noticed how instant it went from on to off? That’s the gist of a hard cut. They range from 1 instant cut or multiple cuts through glitch effects or camera shutters.
 
-Most of the simplest trigger setups come from hard cut transitions; you might use an [alpha](https://www.gdcreatorschool.com/docs/guides/triggers-1/alpha/), a [toggle trigger](https://www.gdcreatorschool.com/docs/guides/triggers-1/toggle/) or a [shader trigger](https://www.gdcreatorschool.com/docs/guides/triggers-1/screen-filters/), and 2 groups for switching the cut.
+Most of the simplest trigger setups come from hard cut transitions; you might use an [alpha](/docs/guides/triggers-1/alpha/), a [toggle trigger](/docs/guides/triggers-1/toggle/) or a [shader trigger](/docs/guides/triggers-1/screen-filters/), and 2 groups for switching the cut.
 
 {{< callout context="note" title="Key Message: Snappiness." icon="outline/info-circle" >}}
 * Like a snap of a finger, you’re not meant to dwell on a hard cut for that long unless you’re doing glitches. Otherwise, you’re trying to communicate a loading state or a part being off.

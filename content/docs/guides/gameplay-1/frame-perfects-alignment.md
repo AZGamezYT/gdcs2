@@ -2,7 +2,7 @@
 draft: false
 title: Frame Perfects & Alignment
 seo:
-  title: What are Frame Perfects in Geometry Dash
+  title: Frame Perfects in Geometry Dash
   description: Learn how to create, align, and playtest frame-perfect jumps in Geometry Dash.
   canonical: ""
   noindex: false

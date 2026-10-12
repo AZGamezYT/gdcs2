@@ -2,7 +2,7 @@
 draft: false
 title: Perspective 1 (Basics)
 seo:
-  title: What Are the Basics of Perspective in Geometry Dash?
+  title: Perspective Basics for Geometry Dash
   description: Learn the fundamentals of perspective and how to create the impression of depth in Geometry Dash decoration.
   canonical: ""
   noindex: false
