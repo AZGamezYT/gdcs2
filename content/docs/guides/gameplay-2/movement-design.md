@@ -9,30 +9,23 @@ contributors:
   - interestex
   - illusion2
   - psytrancegd
-description: Movement is a core aspect of any game, and can make or break a
-  game’s immersion and enjoyability. This guide will cover many fundamental
-  details in the process of designing good movement systems.
+description: Movement is a core aspect of any game, and can make or break a game’s immersion and enjoyability. This guide will cover many fundamental details in the process of designing good movement systems.
 tags:
   - Grade 2
   - Game Design
 seo:
   title: How to Design Better Movement in Geometry Dash
-  description: Learn the fundamentals of movement design and how responsive,
-    enjoyable movement can improve immersion and gameplay in Geometry Dash.
+  description: Learn the fundamentals of movement design and how responsive, enjoyable movement can improve immersion and gameplay in Geometry Dash.
   canonical: ""
   noindex: false
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
-
-
 
 - Movement is the core of most systems and can make something as simple as traversing feel fun.
 - Players should be able to see, hear, and expect a motion as soon as an input is executed.
 - Movements should feel consistent to refine accuracy and skill as opposed to feeling random.
 - Moving around should feel dynamic and satisfying, and the system should be easy to use.
 - When travelling around, players shouldn’t be able to abuse the movement system to bypass everything, yet it shouldn’t feel like a chore to use.
-
-
 
 {{< /callout >}}
 

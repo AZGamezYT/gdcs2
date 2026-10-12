@@ -435,7 +435,7 @@ Suppose we want to use a number $X$ to control the value of some effect applied 
 
 What we are essentially doing here is converting from decimal to binary, where we transform an object by $2^k$ units, if and only if the $k-$th position of the binary representation of $X$ is 1. Since the effects stack additively, the sum of all contributions will match $X$ exactly, and thus $O$ will be transformed $X$ units (this process can be seen in the video when spawn order is activated).
 
-We use binary units to ensure the entire process is done within a frame. Since any number can be represented in binary, we read the digits from left to right to determine how the object should move; object $A$ moves $2^k$ units if the $k-$th digit is 1. By setting a maximum distance $d$, we know the binary representations of all numbers available will not exceed $d$, guaranteeing spawn loops won’t be used to handle digit lengths, which would make this process slower. We will expand more on this setup and other ones involving advanced logic on the [Making Functions](/docs/guides/triggers-2/making-functions.md) guide.
+We use binary units to ensure the entire process is done within a frame. Since any number can be represented in binary, we read the digits from left to right to determine how the object should move; object $A$ moves $2^k$ units if the $k-$th digit is 1. By setting a maximum distance $d$, we know the binary representations of all numbers available will not exceed $d$, guaranteeing spawn loops won’t be used to handle digit lengths, which would make this process slower. We will expand more on this setup and other ones involving advanced logic on the [Making Functions](/docs/guides/triggers-2/making-functions/) guide.
 
 # Sources
 

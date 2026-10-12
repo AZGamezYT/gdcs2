@@ -131,7 +131,7 @@ After selecting objects, you can change their properties as follows:
 
 While in this tab, the {{< img src="images/GDEmotes/Buttons/Swipe.png" class="emote">}} **Swipe** button lets you **delete many objects** by *clicking and dragging*.
 
-The other buttons in this tab let you *filter what objects you delete* based on their properties. This is explained in more detail [in this guide](https://www.gdcreatorschool.com/docs/guides/the-editor/organizing-objects/#2-select-filter).
+The other buttons in this tab let you *filter what objects you delete* based on their properties. This is explained in more detail [in this guide](/docs/guides/the-editor/organizing-objects/#2-select-filter).
 
 {{< youtube FijgIgJH20c >}}
 

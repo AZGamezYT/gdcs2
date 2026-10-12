@@ -2,7 +2,7 @@
 draft: false
 title: The Trigger Process
 seo:
-  title: What Is the Trigger Process in Geometry Dash?
+  title: Trigger Workflow & Setups in Geometry Dash
   description: Learn the basics components of trigger setups in Geometry Dash.
   canonical: ""
   noindex: false

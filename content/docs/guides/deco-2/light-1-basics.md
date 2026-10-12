@@ -2,7 +2,7 @@
 draft: false
 title: Light 1 (Basics)
 seo:
-  title: What Are the Basics of Lighting in Geometry Dash?
+  title: Lighting Basics for Geometry Dash
   description: Learn how light and shadow communicate depth, mood, and detail in Geometry Dash decoration.
   canonical: ""
   noindex: false

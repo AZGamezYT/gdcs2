@@ -4,7 +4,7 @@ authors:
   - komatic5
 title: Mechanics 1 (Intro)
 seo:
-  title: What Are Gameplay Mechanics in Geometry Dash?
+  title: Gameplay Mechanics for Geometry Dash
   description: Learn what gameplay mechanics are, how they relate to player skill, and how to introduce and combine mechanics in Geometry Dash levels.
   canonical: ""
   noindex: false
