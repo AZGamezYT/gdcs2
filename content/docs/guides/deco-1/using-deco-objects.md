@@ -7,13 +7,16 @@ weight: 5010
 date: 2024-04-28T00:00:00.000Z
 contributors:
   - komatic5
-description: Objects are the key to all decoration, but learning the fundamental skills for using them can be tricky. This guide explains the basic editor skills you must apply to use objects well in your deco.
+description: Objects are the key to all decoration, but learning the fundamental
+  skills for using them can be tricky. This guide explains the basic editor
+  skills you must apply to use objects well in your deco.
 tags:
   - Grade 1
   - Deco Basics
 seo:
   title: How to Use Decoration Objects in Geometry Dash
-  description: Learn how to choose and use decoration objects in Geometry Dash to build detailed, readable, and interesting levels.
+  description: Learn how to choose and use decoration objects in Geometry Dash to
+    build detailed, readable, and interesting levels.
   canonical: ""
   noindex: false
 ---
@@ -164,9 +167,7 @@ When using blending objects on top of non-blending objects, make sure the non-bl
 
 ## Stacking with Opacity
 
-{{< img src="images/GDEmotes/Triggers/Alpha.png" >}}
-
- Opacity makes objects transparent or see-through. This is useful when you want to lower the visibility of an object, such as a gradient or something with blending colors. It is also useful with objects that have complex shapes, like animated objects and some objects from the particle tab.
+{{< img src="images/GDEmotes/Triggers/Alpha.png" class="emote" >}} Opacity makes objects transparent or see-through. This is useful when you want to lower the visibility of an object, such as a gradient or something with blending colors. It is also useful with objects that have complex shapes, like animated objects and some objects from the particle tab.
 
 {{< img src="https://lh3.googleusercontent.com/d/1guo7zHxbA25uaT4eUk-in6jmZ4SAgDUS" >}}
 
