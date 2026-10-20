@@ -14,7 +14,7 @@ tags:
 seo:
   title: How to Use the Geometry Dash Editor
   description: How to use Geometry Dash's level editor, going over how to navigate the editor, and the build, edit, and delete tabs.
-  canonical: ""
+  canonical: placing-objects
   noindex: false
 ---
 

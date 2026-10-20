@@ -12,7 +12,7 @@
 [[main]]
   parent="Guides"
   name = "The Editor"
-  url = "/docs/guides/The Editor/Placing Objects"
+  url = "/docs/guides/The Editor/Creating Basics"
   weight = 10
 
 [[main]]
