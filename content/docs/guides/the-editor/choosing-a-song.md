@@ -28,11 +28,13 @@ seo:
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
+
 - There are 3 main ways to use songs in GD: Newgrounds, the music library and NONGs.
 - Newgrounds is the built in way to use songs that aren’t used in official levels.
 - The music library is a list of songs that users can choose for their levels; you can choose songs from a specific artist or genre.
 - NONGs involve replacing a song in GD’s song folder on your device.
 - The start offset dictates what part of the song should start playing when a level begins.
+
 
 
 {{< /callout >}}
@@ -88,7 +90,7 @@ The music library is a 2.2 feature that will allow the user to pick a song for t
 
 6. After downloading the song, click the "Use" button.
 
-{{< img src="https://lh3.googleusercontent.com/d/1PAbYseY3T7a2kqrnxQPsVmgFcoEpaSew" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1R_vpaVFpl-PZ3uTvtlqmZldlL7h-gFl6" >}}
 
 To hear the song as well, click the play button to the right of the "use" button.
 
@@ -108,13 +110,7 @@ The music symbol on the right is where you can choose a specific artist. The sym
 {{< img src="https://lh3.googleusercontent.com/d/1zO67qSxcmowXw8LBQlu36pbWxf89FVIQ" >}}
 {{< /img-grid >}}
 
-
-
-
-
 Once you have picked your desired song you’re all set to play.
-
-
 
 # 3: Not on Newgrounds (NONG)
 
