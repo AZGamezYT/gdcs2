@@ -323,7 +323,7 @@ You can find a list of all emojis [here](https://github.com/GDCreatorSchool/gdcs
 
 When inserting an emoji, use the `{{</* img */>}}` shortcode. For instance, `{{</* img src="images/GDEmotes/Icons/Clock.png" class="emote" */>}}` displays as the {{< img src="images/GDEmotes/Icons/Clock.png" class="emote" >}} emoji. Use the `class="emote"` part to ensure emotes show as the right size.
 
-You can find multiple examples of emojis in the [github page](https://github.com/GDCreatorSchool/gdcs2/blob/main/content/docs/guides/The%20Editor/Placing%20Objects.md) for this example.
+You can find multiple examples of emojis in the [github page](https://github.com/GDCreatorSchool/gdcs2/blob/main/content/docs/guides/the-editor/placing-objects.md) for this example.
 
 ## Videos
 

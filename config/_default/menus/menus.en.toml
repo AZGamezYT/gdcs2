@@ -12,36 +12,36 @@
 [[main]]
   parent="Guides"
   name = "The Editor"
-  url = "/docs/guides/The Editor/Creating Basics"
+  url = "/docs/guides/the-editor/creating-basics"
   weight = 10
 
 [[main]]
   parent="Guides"
   name = "General Skills"
-  url = "/docs/guides/Main Skills/Getting Ideas"
+  url = "/docs/guides/main-skills/getting-ideas"
   weight = 15
 
 [[main]]
   parent="Guides"
   name = "Triggers"
-  url = "/docs/guides/Triggers 1/Trigger Intro"
+  url = "/docs/guides/triggers-1/trigger-intro"
   weight = 20
 
 [[main]]
   parent="Guides"
   name = "Gameplay"
-  url = "/docs/guides/Gameplay 1/Using Gamemodes"
+  url = "/docs/guides/gameplay-1/using-gamemodes"
   weight = 30
 
 [[main]]
   parent="Guides"
   name = "Decoration"
-  url = "/docs/guides/Deco 1/Using Deco Objects"
+  url = "/docs/guides/deco-1/how-to-decorate"
   weight = 40
 
 [[main]]
   name = "Contributing"
-  url = "/contributing/Contributing Guide"
+  url = "/contributing/contributing-guide"
   weight = 100
 
 [[main]]
