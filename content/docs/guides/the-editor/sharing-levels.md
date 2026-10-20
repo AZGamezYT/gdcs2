@@ -83,7 +83,7 @@ The {{< img src="images/GDEmotes/Icons/RedPlus.png" class="emote">}} sticker dea
 
 # 5: Exporting
 
-In the new 2.209 update, RobTop decided to add a feature similar to the Geode mod GDShare. It does the same thing, except the buttons are in different locations.
+In the new 2.209 update, RobTop decided to add a feature similar to the Geode mod GDShare, which was a mod that allowed users to share levels as .gmd files, prior to the 2.209 update. It does the same thing, except the buttons are in different locations. There are several benefits to this, like sharing levels without having to unlist them every time for a collab, or even making backups for your level in case you delete it accidentally.
 
 {{< img src="" >}}
 
