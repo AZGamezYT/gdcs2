@@ -22,10 +22,12 @@ seo:
   noindex: false
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+
 * When you’re on the main level page, you can use the rightmost button to upload your level.
 * The level name and description can be set on this main page. Once you complete this, you must verify your level and all its coins.
 * You can set your level so everyone can view it, or only people with the level ID. You can also request a difficulty for the level.
 * Levels that were copied from other levels have a C tag, (Copy Tag) while high-object levels have a red Plus tag. (High Objects Tab)
+
 {{< /callout >}}
 
 - - -
@@ -79,7 +81,27 @@ If a level has a {{< img src="images/GDEmotes/Icons/CopiedLevel.png" class="emot
 
 The {{< img src="images/GDEmotes/Icons/RedPlus.png" class="emote">}} sticker deals with Object count. If your level has more than 40,000 objects, this sticker will show up. Many levels have very high object counts for a variety of reasons. They range from poor optimization to visual details to effects.
 
-# 5: Misc. Features
+# 5: Exporting
+
+In the new 2.209 update, RobTop decided to add a feature similar to the Geode mod GDShare. It does the same thing, except the buttons are in different locations.
+
+{{< img src="" >}}
+
+Once you press the Pause button in the top right corner of the editor (or press esc) there will be a button called "Export." Press that button and a popup will appear, asking you where you would like to export the level to. 
+
+{{< img src="" >}}
+
+Then, it will save the level as a .gdlvl file. You can share this with anyone you want, through any external apps such as Discord.
+
+{{< img src="" >}}
+
+Once the recipient has the .gdlvl file, they can simply upload the file on the bottom left of the Create menu.
+
+{{< img src="" >}}
+
+
+
+# 6: Misc. Features
 
 {{< img src="images/GDEmotes/Icons/x.png" >}}
 
