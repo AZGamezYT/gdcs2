@@ -1,34 +1,34 @@
 ---
 draft: false
-title: Sharing Levels
-weight: 1090
-date: 2023-03-20T00:00:00.000Z
-description: Whether you are sending your level for feedback, star rate, collabs, or as a gift for someone, it is handy to know how to upload your level. In this guide, we’ll explain how you can share levels.
 authors:
   - sparktwee
+title: Sharing Levels
+weight: 1060
+date: 2023-03-20T00:00:00.000Z
 contributors:
   - komatic5
   - sparktwee
   - lagwerious
+description: Whether you are sending your level for feedback, star rate,
+  collabs, or as a gift for someone, it is handy to know how to upload your
+  level. In this guide, we’ll explain how you can share levels.
 tags:
   - Grade 0
-  - Basic Editor
+  - The Editor
 seo:
   title: How to Upload a Geometry Dash Level
   description: An explanation of every feature you can use when uploading a GD level.
   canonical: ""
   noindex: false
 ---
-
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
-- When you’re on the main level page, you can use the rightmost button to upload your level.
-- The level name and description can be set on this main page. Once you complete this, you must verify your level and all its coins.
-- You can set your level so everyone can view it, or only people with the level ID. You can also request a difficulty for the level.
-- Levels that were copied from other levels have a C tag, while high-object levels have a red Plus tag.
-
+* When you’re on the main level page, you can use the rightmost button to upload your level.
+* The level name and description can be set on this main page. Once you complete this, you must verify your level and all its coins.
+* You can set your level so everyone can view it, or only people with the level ID. You can also request a difficulty for the level.
+* Levels that were copied from other levels have a C tag, (Copy Tag) while high-object levels have a red Plus tag. (High Objects Tab)
 {{< /callout >}}
 
-** **
+- - -
 
 # 1: The Main Page
 
@@ -81,11 +81,15 @@ The {{< img src="images/GDEmotes/Icons/RedPlus.png" class="emote">}} sticker dea
 
 # 5: Misc. Features
 
-{{< img src="images/GDEmotes/Icons/x.png" class="emote">}} The red X deletes your level from existence. This cannot be undone.
+{{< img src="images/GDEmotes/Icons/x.png" >}}
+
+ The red X deletes your level from existence. This cannot be undone.
 
 The {{< img src="images/GDEmotes/Buttons/HelpButton.png" class="emote">}} button directs you to the outdated GD Guide that inspired GDCS to exist and surpass it.
 
-{{< img src="images/GDEmotes/Buttons/Files.png" class="emote">}} The File button lets you duplicate your level. This is perfect for backups.
+{{< img src="images/GDEmotes/Buttons/Files.png" >}}
+
+ The File button lets you duplicate your level. This is perfect for backups.
 {{< img src="images/GDEmotes/Buttons/MoveToTop.png" class="emote">}} The white up arrow places the level you're making to the top of your created levels list.
 
 On the left, you'll see a lone folder staying away from the crowd on the right. If you want to categorize your levels and organize them into previews, collab parts, fully uploaded levels, experiments, or whatever category you wish, this folder will be your best friend.
@@ -96,12 +100,12 @@ If you create a new level with a name that already exists in your list of levels
 
 Here’s another wacky thing about descriptions: you can add color to the text by putting them in between the symbols `<c>` and `</c>`. Depending on the color you want, the `<c>` string can be replaced with the following symbols:
 
-- `<cr>` for <span style="color: #FF0000"> Red (#FF0000) </span>
-- `<cb>` for <span style="color: #0000FF">Blue (#0000FF) </span>
-- `<cg>` for <span style="color: #00FF00">Green (#00FF00)</span>
-- `<cj>` for <span style="color: #00FFFF">Cyan (#00FFFF)</span>
-- `<co>` for <span style="color: #FF7F00">Orange (#FF7F00)</span>
-- `<cp>` for <span style="color: #CC8899">Purple (#CC8899)</span>
+* `<cr>` for <span style="color: #FF0000"> Red (#FF0000) </span>
+* `<cb>` for <span style="color: #0000FF">Blue (#0000FF) </span>
+* `<cg>` for <span style="color: #00FF00">Green (#00FF00)</span>
+* `<cj>` for <span style="color: #00FFFF">Cyan (#00FFFF)</span>
+* `<co>` for <span style="color: #FF7F00">Orange (#FF7F00)</span>
+* `<cp>` for <span style="color: #CC8899">Purple (#CC8899)</span>
 
 {{< img src="https://lh3.googleusercontent.com/d/1RsYDyh7MMiL8N_0XrafLP-8Dmoy_Y_9o" >}}
 
