@@ -87,11 +87,17 @@ In the new 2.209 update, RobTop decided to add a feature similar to the Geode mo
 
 Once you press the Pause button in the top right corner of the editor (or press esc) there will be a button called "Export." Press that button and a popup will appear, asking you where you would like to export the level to. 
 
+{{< img-grid >}}
+
+
+{{< img src="https://lh3.googleusercontent.com/d/18VXhFBSSWqg_2Nt3D1sMCtvedMww2HhJ" >}}
+
 {{< img src="https://lh3.googleusercontent.com/d/1NwtPf8X_AnJQCOulOd-ItQzOS3wYU7Z8" >}}
+{{< /img-grid >}}
 
 Then, it will save the level as a .gdlvl file. You can share this with anyone you want, through any external apps such as Discord.
 
-{{< img src="https://lh3.googleusercontent.com/d/" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1K_DibJq7QkxJqpycAaogqB6GYU3UxLLi" >}}
 
 Once the recipient downloads the .gdlvl file, they can simply upload the file on the bottom left of the Create menu.
 
