@@ -3,7 +3,7 @@ draft: false
 authors:
   - naem.less
 title: Collectable Objects
-weight: 1110
+weight: 1160
 date: 2024-01-12T00:00:00.000Z
 contributors:
   - naem.less

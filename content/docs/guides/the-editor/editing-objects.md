@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Editing Objects
-weight: 1020
+weight: 1040
 date: 2024-02-25T00:00:00.000Z
 description: In this Editor guide, we’ll show you how to change an object’s properties.
 authors:
@@ -15,13 +15,19 @@ contributors:
   - sparktwee
 tags:
   - Grade 0
-  - The Editor
+  - Basic Editor
 seo:
-  title: Geometry Dash Editor Guide (Part 2)
+  title: How to Edit Objects in Geometry Dash
   description: Part 2 of how to use Geometry Dash's level editor, going over Z layer and Z Order, tilesets, groups, the Extra tabs, and Edit Object.
   canonical: ""
   noindex: false
 ---
+
+{{< callout context="danger" title="This guide is outdated" icon="outline/info-circle" >}}
+
+With update 2.209, a lot of changes were made to the editor. This guide on its current state holds up until 2.208, and is currently being updated.
+
+{{< /callout >}}
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Z layer and Z order let you place objects on top of or behind each other.
@@ -48,11 +54,11 @@ To change an object's color, click on one of the buttons. Each button correspond
 - The "P-Col 1", "P-Col 2", "Light BG", and "Default" buttons are **special color channels**. You cannot customize their color yourself.
 - Objects will have a "Base" color, a "Detail" color, or both. If an object has both types of color channels, you can switch between them in the top left of the UI.
 - Use the **Next Free** button to select the next unused (custom) color channel.
-- Use the **HSV** button to adjust an object's colors relative to its color channel. This is explained in detail in [this guide](/docs/guides/the-editor/using-channels/#1-color-channels).
+- Use the **HSV** button to adjust an object's colors relative to its color channel. This is explained in detail in [this guide](/docs/guides/the-editor/choosing-colors/#1-color-channels).
 
 Use the {{< img src="images/GDEmotes/Buttons/RGB.png" class="emote">}} RGB button to adjust a color channel in real-time. Clicking the {{< img src="images/GDEmotes/Buttons/RGB.png" class="emote">}} button a second time adjusts an object's HSV as well in real-time.
 
-[This guide](/docs/guides/the-editor/using-channels/#1-color-channels) explains how color channels work in more detail.
+[This guide](/docs/guides/the-editor/choosing-colors/#1-color-channels) explains how color channels work in more detail.
 
 ## Special Objects
 
@@ -126,60 +132,13 @@ This diagram by WLS6 shows which objects have what tilesets.
 
 {{< img src="https://lh3.googleusercontent.com/d/1D2oIlQ4kqEfq1JAyhIlSiLzq7KzAFAkR" >}}
 
-[Blending](/docs/guides/the-editor/using-channels/#1-color-channels) objects will always display below non-blending objects on the same Z layer, regardless of their tilesets.
+[Blending](/docs/guides/the-editor/choosing-colors/#2-blending) objects will always display below non-blending objects on the same Z layer, regardless of their tilesets.
 
-## Extra Tab 1
-**Extra Tab 1** lets you select different options to give your objects different properties. This section will go over the different options.
+## Extra Tabs
 
-{{< img src="https://lh3.googleusercontent.com/d/1ApFT8E7higf7WeAfVDrdMJ9pVH92CXN9" >}}
+The Edit Group menu also has extra tabs that allows you to edit different object properties. These are more niche features and thus will be explained in the dedicated [Extra Properties](/docs/guides/the-editor/extra-properties) guide.
 
-- **Don’t Fade** and **Don’t Enter**: Stops the object from having an [enter effect](/docs/guides/triggers-1/enter-triggers/) at the edge of the screen.
-- **No Effects**: Stops pads and portals from having effects as you interact with them, like the background flashes in size portals.
-
-- **Group Parent**: When rotating or scaling several objects, the objects will transform relative to the group parent; in other words, the group parent acts as the center point. This is not to be confused with Parent Group.
-- **Area Parent**: Functions as a group parent, but for area triggers. Make sure you link a set of objects together before making one object the area parent.
-
-- **Don’t BoostY** and **Don’t BoostX**: Stops the player from having their speed boosted by moving blocks.
-- **High Detail**: When enabling "Low Detail Mode" outside the editor and playing the level, objects with High Detail will disappear, making the level less laggy.
-
-
-- **NoTouch**: Removes collisions from objects with a hitbox (e.g. [static objects](/docs/guides/the-editor/static-objects/)), converting them to [detail objects](/docs/guides/deco-1/detail-objects/).
-- **Passable**: Allows the player to go through the block from the bottom or side, making for passable platforms.
-- **Hide**: Makes the object completely invisible. Disable Hide Invisible in the editor pause menu to see the hidden objects.
-
-- **NonStickX and NonStickY**: When moving objects in platformer mode, the player will not stick to the object if they’re on top of it.
-- **ExtraStickY**: When moving objects downward fast with the player on it, this keeps the player on the object rather than having the player fall as if walking off a platform.
-- **Extended Collision**: Makes the hitboxes of objects match correctly when scaled up by a lot.
-- **IceBlock**: Makes objects extremely slippery, like an ice block. Useful in Platformer mode.
-
-- **GripSlope**: Stops the player from sliding off a slope. Useful in Platformer mode.
-- **NoGlow**: Static Objects.md have an inherent glow on their outlines only visible in normal mode; this option removes the glow.
-- **NoParticle**: Removes particles from objects like portals and pads.
-- **ScaleStick**: When using a scale trigger on an object with the player on it, the player will only move up. However, with this option, the player will move to the side as well relative to the center of the scaling.
-- **NoAudioScale**: Disables the scaling/pulsing on objects that pulse relative to the song, like the big pulsing circles.
-
-In addition, some objects can have more options, which include the following:
-- **Reverse**: Reverses the gameplay direction as soon as you hit an orb or a pad. *Orbs and Pads Only*.
-- **Single P Touch**: If one player touches an arrow trigger {{< img src="images/GDEmotes/Triggers/Arrow.png" class="emote" >}} in Dual Mode, the trigger will only activate for the player that touches it. *However, this feature is currently bugged as of Update 2.205.*
-- **Center Effect**: [Touch Triggered](/docs/guides/triggers-1/spawn/) triggers will only activate once the player touches the center of the trigger.
-
-- **Smooth Ease**: Moves the camera smoothly rather than instantly when using any kind of teleport.
-
-## Extra Tab 2
-This tab is somewhat self-explanatory. There are various counters that let you to change the IDs shown in the [Using IDs](/docs/guides/the-editor/using-ids/) guide.
-
-Keep in mind that not all objects are able to have certain IDs, meaning that some objects will not have some counters that other objects do have.
-
-{{< img src="https://lh3.googleusercontent.com/d/1iRSBsrj-PS2xdcgpjb4eVgFEXSrnLZsV" >}}
-
-## Anim
-The **Anim** button right under the Extra2 button serves as a shortcut to creating [keyframes](/docs/guides/triggers-1/keyframes/#3-the-keyframe-object).
-
-If you give some objects a group, and have only one object as the "parent group", you can click the Snim button and it will spawn a {{< img src="images/GDEmotes/Triggers/KeyframeObject.png" class="emote">}} keyframe object on top of the parent group. You can then use the keyframe object as normal.
-
-{{< youtube d0TATu-MdOI >}}
-
-Keep in mind that **this ONLY WORKS if you have a parent group**. Check out the [Keyframes](/docs/guides/triggers-1/keyframes/#3-the-keyframe-object) guide for more information.
+(image on where to find these)
 
 # 3: Edit Special
 

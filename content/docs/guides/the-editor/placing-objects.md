@@ -2,21 +2,28 @@
 draft: false
 authors:
   - komatic5
-title: Placing Objects
-weight: 1010
+title: Creating Basics
+weight: 1000
 date: 2023-03-20T00:00:00.000Z
 contributors:
   - komatic5
 description: Welcome to the first Editor guide! Here, we’ll show you how to place objects, remove them, and navigate the editor.
 tags:
   - Grade 0
-  - The Editor
+  - Basic Editor
 seo:
   title: How to Use the Geometry Dash Editor
-  description: Part 1 of how to use Geometry Dash's level editor, going over how to navigate the editor, and the build, edit, and delete tabs.
+  description: How to use Geometry Dash's level editor, going over how to navigate the editor, and the build, edit, and delete tabs.
   canonical: ""
   noindex: false
 ---
+
+{{< callout context="danger" title="This guide is outdated" icon="outline/info-circle" >}}
+
+With update 2.209, a lot of changes were made to the editor. This guide on its current state holds up until 2.208, and is currently being updated.
+
+{{< /callout >}}
+
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
 - Click and drag in the editor to move around.

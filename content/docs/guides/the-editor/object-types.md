@@ -3,7 +3,7 @@ draft: false
 authors:
   - illusion2
 title: Object Types
-weight: 1080
+weight: 1010
 date: 2024-04-28T00:00:00.000Z
 contributors:
   - sparktwee
@@ -11,7 +11,7 @@ contributors:
 description: There are lots of object types in Geometry Dash, and this guide will go over them.
 tags:
   - Grade 0
-  - Advanced Editor
+  - Basic Editor
 seo:
   title: Every Type of Object in Geometry Dash
   description: Do you struggle to find objects in the Geometry Dash editor? This guide explains how to find them faster.
