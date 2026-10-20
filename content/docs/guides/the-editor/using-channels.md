@@ -15,7 +15,7 @@ tags:
 seo:
   title: How to Use Trigger Channels & Tracing in Geometry Dash
   description: Trigger Order and Trigger Channels are often misunderstood. This guide explains what they do and how to use them properly.
-  canonical: ""
+  canonical: using-channels
   noindex: false
 ---
 
