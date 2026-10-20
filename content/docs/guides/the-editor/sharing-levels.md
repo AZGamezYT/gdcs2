@@ -38,7 +38,7 @@ When you first create a new level, or exit from the editor, you will be directed
 
 Notice the three big buttons at the center. From left to right, the tools button leads you to the editor, the yellow play button puts you in the level, and the red curvy arrow button is the upload button that will allow you to share your level.
 
-{{< img src="https://lh3.googleusercontent.com/d/1P3Ljtx9_CrtxT6amGPs8IeJK8KW0G3JI" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1H8jWXFRV1C-KJhfNTCw9Ynq8PwoXI0ju" >}}
 
 # 2: Level Name and Description
 
@@ -50,7 +50,7 @@ Leaving the level name empty will give you its default name "Unnamed". For Descr
 
 Once that is settled, delete any start pos triggers, and verify your level. If you have user coins, you’ll need to collect them too before uploading your level.
 
-{{< img src="https://lh3.googleusercontent.com/d/1BGtQTyejX5or7TQkoWUaOUqz5rb0mrem" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1tkGkY6aP_0gGu1cktiNgNbyHmg_fBMH0" >}}
 
 # 3: Public vs Unlisted
 
@@ -58,7 +58,7 @@ Once you press the red upload button, it will lead you to another checkbox to co
 
 You can request stars to help players know what difficulty to expect.
 
-{{< img src="https://lh3.googleusercontent.com/d/1AUzk1zx1pgzYIe_wUHqa4xddEYnuZj7V" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1spZRo1-dSV657U0dV5IEnKmB7HjIncLh" >}}
 
 On the top right, you can see a gear which leads you to the other three elements.
 
@@ -68,7 +68,7 @@ Ticking Requires Password will lock the level by a passcode-protected keypad. If
 
 If you choose to upload your level as “Unlisted”, you’ll only allow your GD Friends to play the level, as long as you also give them the level ID. This is how creators can collab with each other and merge their parts.
 
-{{< img src="https://lh3.googleusercontent.com/d/19QA-zcQbgkWj1BClzlP_CLxgQq0tLda5" >}}
+{{< img src="https://lh3.googleusercontent.com/d/10HmKmmKuh2VQlvKVUBehv7UWnARcCbF3" >}}
 
 If you successfully upload your level, you will receive the official level ID that you can use to find it in the search bar (before that, the ID would show “NA”). Public levels will also be accessible through https://gdbrowser.com, while unlisted levels are not.
 
@@ -85,19 +85,17 @@ The {{< img src="images/GDEmotes/Icons/RedPlus.png" class="emote">}} sticker dea
 
 In the new 2.209 update, RobTop decided to add a feature similar to the Geode mod GDShare, which was a mod that allowed users to share levels as .gmd files, prior to the 2.209 update. It does the same thing, except the buttons are in different locations. There are several benefits to this, like sharing levels without having to unlist them every time for a collab, or even making backups for your level in case you delete it accidentally.
 
-{{< img src="" >}}
-
 Once you press the Pause button in the top right corner of the editor (or press esc) there will be a button called "Export." Press that button and a popup will appear, asking you where you would like to export the level to. 
 
-{{< img src="" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1NwtPf8X_AnJQCOulOd-ItQzOS3wYU7Z8" >}}
 
 Then, it will save the level as a .gdlvl file. You can share this with anyone you want, through any external apps such as Discord.
 
-{{< img src="" >}}
+{{< img src="https://lh3.googleusercontent.com/d/" >}}
 
-Once the recipient has the .gdlvl file, they can simply upload the file on the bottom left of the Create menu.
+Once the recipient downloads the .gdlvl file, they can simply upload the file on the bottom left of the Create menu.
 
-{{< img src="" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1X64sHqhr94m9vMSgK4YQWBKGtrCLV7LW" >}}
 
 
 
