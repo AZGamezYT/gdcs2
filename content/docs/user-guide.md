@@ -28,7 +28,7 @@ New to the Geometry Dash editor? Don't worry! You'll find all the info you need 
   title="The Editor"
   description="Here, you'll learn how to navigate the Geometry Dash level editor, use its buttons & tabs, and the other foundational skills you need."
   image="https://lh3.googleusercontent.com/d/1085rRnQxURnHbEuFf2nkPEhHR1o3oY5L"
-  href="/docs/guides/the-editor/placing-objects" >}}
+  href="/docs/guides/the-editor/creating-basics" >}}
 {{< link-card-img
   title="General Skills"
   description="Build the planning skills that you'll use constantly to improve. Learn how to make level ideas, incorporate feedback, and execute your plans."
@@ -53,7 +53,7 @@ Already got some experience? This section will help you learn more about gamepla
   title="Decoration 1"
   description="Here, you'll learn the fundamentals of making decoration, like how to choose objects & make shapes, layering, and different types of decoration and effects."
   image="https://lh3.googleusercontent.com/d/1Z0x-tnuioj6FWiUMgnk7-BLhsqfIOlPJ"
-  href="/docs/guides/deco-1/using-deco-objects" >}}
+  href="/docs/guides/deco-1/how-to-decorate" >}}
 
 # Advanced (Grade 2)
 
