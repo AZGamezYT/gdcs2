@@ -36,7 +36,7 @@ tags:
 
 ## Color Effects
 
-There are a lot of interesting applications when using colors. However, you need to understand how [color channels](/docs/guides/the-editor/using-channels/) work first. Color channels have three main properties you can use to your advantage; *Copy Color, Opacity, and Blending*.
+There are a lot of interesting applications when using colors. However, you need to understand how [color channels](/docs/guides/the-editor/choosing-colors/) work first. Color channels have three main properties you can use to your advantage; *Copy Color, Opacity, and Blending*.
 
 **Copy Color** *allows the color channel to copy the color of another channel*, meaning if you change one color channel, you can change the color of other channels as well. Using the HSV sliders, you can create a new color based off of an old color channel. Your colors are now linked; you can do whatever you want with one color and it will display in your other colors.
 

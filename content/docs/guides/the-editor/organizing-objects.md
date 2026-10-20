@@ -3,7 +3,7 @@ draft: false
 authors:
   - tdp9
 title: Organizing Objects
-weight: 1030
+weight: 1050
 date: 2024-04-03T00:00:00.000Z
 contributors:
   - tdp9
@@ -11,9 +11,9 @@ contributors:
 description: In this editor guide we’ll go over things you’ll need to organize your objects. This will make creating a lot less painful in the long run.
 tags:
   - Grade 0
-  - The Editor
+  - Basic Editor
 seo:
-  title: Geometry Dash Editor Guide (Part 3)
+  title: How to Use Layers & Filters in Geometry Dash
   description: Part 3 of how to use Geometry Dash's level editor, going over editor layers, select filter, and select all.
   canonical: ""
   noindex: false

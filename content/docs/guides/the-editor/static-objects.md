@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Static Objects
-weight: 1090
+weight: 1020
 date: 2024-02-11T00:00:00.000Z
 description: In this guide, we’ll explain how static objects - blocks, slopes, and (interactable) hazards - function. These objects have hitboxes that the player may interact with, making them essential to creating gameplay.
 authors:
@@ -11,7 +11,7 @@ contributors:
   - xplode09
 tags:
   - Grade 0
-  - Advanced Editor
+  - Basic Editor
 seo:
   title: Every Type of Static Object in Geometry Dash
   description: A short explanation of static objects, such as blocks, spikes, and slopes.
@@ -180,6 +180,7 @@ There are three types of saws:
 {{< img src="https://lh3.googleusercontent.com/d/1Yug_iyuFk6IBDMOvyhO5rKnBX4Et-PYI" >}}
 
 ## Variations
+
 Saws have a lot of variations - 8 of them, to be exact. These all share different hitboxes between each other. These differences need to be kept in mind when making gameplay (especially with the last one), since choosing the right saw can make a positive or negative impact on the gameplay.
 
 {{< img src="https://lh3.googleusercontent.com/d/1yQa73pc1j-14LKiw5W66f0RwtOqa5iOb" >}}
@@ -199,70 +200,11 @@ These saws have incredibly unconventional hitboxes, so use them wisely.
 {{< img src="https://lh3.googleusercontent.com/d/1RYZdPrPUSDVJSv8u-OV9Zu_Fp9aByveg" >}}
 
 ## Rotation
+
 You can select a saw and click on {{< img src="images/GDEmotes/Buttons/EditSpecial.png" class="emote" >}} Edit Special to give them a custom rotation. There are three options: the default rotation, which randomly fluctuates between a set of rotation speeds; the custom rotation which lets you input a specific rotation speed measured in degrees per second; and the disable rotation, which ceases all rotation on the block.
 
 {{< img src="https://lh3.googleusercontent.com/d/1qYYVLJlhcQVqDTTYzUatCLoAg94QIIxp" >}}
 
 # 5: Object Options
 
-In addition to these objects, you can modify their properties to your liking. To do this, select an object, click on {{< img src="images/GDEmotes/Buttons/EditGroup.png" class="emote">}} Edit Group, and click on the Extra button to the right.
-
-- **IceBlock** __gives blocks in Platformer an ice-like property__, making acceleration much slower when the player attempts to do so on the block's surface.
-
-{{< img src="https://lh3.googleusercontent.com/d/1TSlMDTVPWB45myZm7rJuWZSeAWMU8_RE" >}}
-
-{{< youtube 05Z6yPc7ZSM >}}
-
-- **NoTouch** __removes the object's hitbox completely__, making it unable to be interacted with by the player.
-
-{{< img src="https://lh3.googleusercontent.com/d/1yhkBYgZnFhYFg8LuXc-Gc3KesqWFcMzK" >}}
-
-{{< youtube -5S0WJjHYXE >}}
-
-- **GripSlope** __allows the player to stand still on a 45° slope__, instead of sliding down it in Platformer.
-
-{{< img src="https://lh3.googleusercontent.com/d/1gob0D7oJ2paa3UpK-rDPjKTWVq9zZ5kx" >}}
-
-{{< youtube Tfcru5SFdKE >}}
-
-- **Passable** __allows the player to pass through a block from the bottom, but still allows the players to stand on the block__. You can move onto the top from below too.
-
-{{< img src="https://lh3.googleusercontent.com/d/1dkR6fbq-2UD0aoEefUUPkQ2SNyqgz2qr" >}}
-
-{{< youtube PngcEN0fDRM >}}
-
-- **Hide** __completely removes the visual appearance of an object__. You can press `F6` in the editor to show these hidden objects if needed.
-
-{{< img src="https://lh3.googleusercontent.com/d/1XK-4cyA_wFJ86juqLeyKEP0KQYsEV5FI" >}}
-
-{{< youtube yoJi1rqKi5Q >}}
-
-- **NonStickX/NonStickY** __stops the player from sticking to moving blocks in Platformer__.
-
-{{< img src="https://lh3.googleusercontent.com/d/1nIugS0VRHjjPBgmEcpYg03gItaBhYmHn" >}}
-
-{{< youtube PSOZ5TvpH5Y >}}
-
-- **DontBoostX/DontBoostY** __stops the player from being boosted by moving blocks__.
-
-{{< img src="https://lh3.googleusercontent.com/d/1LiJSLoQaeBfmp--O_VtVCXKKAsemGwNR" >}}
-
-{{< youtube RSaNW87d0iQ >}}
-
-- **ExtraSticky** __keeps the player stuck onto blocks moving downwards at higher speeds__. This has a limit, however: moving too fast can still cause the player to stop sticking to the block.
-
-{{< img src="https://lh3.googleusercontent.com/d/1ixiYaIj0SvYVpJtzr6QFW3ff63O0plfc" >}}
-
-{{< youtube IBtR39cuu9Q >}}
-
-- **ScaleStick** __allows the player to move along the X axis of a block relative to its center when it is scaled__.
-
-{{< img src="https://lh3.googleusercontent.com/d/1NHYm2FqTxGyGykqTHyjx2E3Ulrk3tjir" >}}
-
-{{< youtube OBZ90fm9_D8 >}}
-
-- **Extended Collision** __fixes the hitboxes of objects with a scale above 6__.
-
-{{< img src="https://lh3.googleusercontent.com/d/1PV8LK4QG3ToTXgWZVFIoXmvRopaIkMXH" >}}
-
-{{< youtube -7X9YNVWyb0 >}}
+In addition to these objects, you can modify their properties to your liking. To do this, select an object, click on {{< img src="images/GDEmotes/Buttons/EditGroup.png" class="emote">}} Edit Group, and click on the Extra button to the right. These properties will be covered on the [Extra Properties](/docs/guides/the-editor/extra-properties/) guide.

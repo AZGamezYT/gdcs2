@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Transforming Objects
-weight: 1150
+weight: 1030
 date: 2024-01-07T00:00:00.000Z
 description: The Edit tab contains tools for transforming objects through movement, flipping, rotation, warping, and scaling. This guide explains how to use these tools in order to control object properties in the editor.
 authors:
@@ -11,13 +11,19 @@ contributors:
   - vexilo5
 tags:
   - Grade 0
-  - Advanced Editor
+  - Basic Editor
 seo:
   title: How to Transform Objects in Geometry Dash
   description: An extensive explanation of how the Transform features work in GD, such as the Warp button.
   canonical: ""
   noindex: false
 ---
+
+{{< callout context="danger" title="This guide is outdated" icon="outline/info-circle" >}}
+
+With update 2.209, a lot of changes were made to the editor. This guide on its current state holds up until 2.208, and is currently being updated.
+
+{{< /callout >}}
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - The edit tab is home to all the tools needed for transforming objects in the editor.

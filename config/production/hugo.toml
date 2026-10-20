@@ -1,5 +1,5 @@
 # Overrides for production environment
-baseurl = "gdcreatorschool.com/"
+baseurl = "https://gdcreatorschool.com/"
 
 [params.repository]
 branch = 'main'

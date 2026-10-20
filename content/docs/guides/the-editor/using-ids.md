@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Using IDs
-weight: 1170
+weight: 1120
 date: 2025-03-31T00:00:00.000Z
 description: IDs (short for identifiers) are numbers that are assigned to objects for a specific role. These roles range from moving an object or changing an object’s color, to assigning a specific area effect. This guide will explain the different types of IDs that you can assign in the editor and how complex they are to set up.
 authors:
@@ -19,6 +19,12 @@ seo:
   canonical: ""
   noindex: false
 ---
+
+{{< callout context="danger" title="This guide is outdated" icon="outline/info-circle" >}}
+
+With update 2.209, a lot of changes were made to the editor. This guide on its current state holds up until 2.208, and is currently being updated.
+
+{{< /callout >}}
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - IDs give objects specific roles in levels.
@@ -55,6 +61,7 @@ These IDs are straightforward to set up and only rarely depend on other IDs to w
 6. Enter Channel IDs
 
 ## Color IDs
+
 Color IDs refer to the color channels when you press {{< img src="images/GDEmotes/Buttons/EditObject.png" class="emote" >}} Edit Object. If you give your object a specific color channel, it will show that specific color.
 
 Of course, the type of objects you use will affect how the color appears. Some objects only have a base color or a detail color, and others will appear brighter, darker, or more transparent because of how the base sprite was made. This is the oldest ID type in the game.
@@ -66,6 +73,7 @@ You may notice that when copying objects across levels, they don’t retain thei
 As a final note, be aware that only color ids 1-999 are typically available in-game. You can technically input a value above 999 when using Edit Object, but you cannot use color triggers to modify the color later.
 
 ## Force IDs
+
 Force IDs are only used in force blocks. Blocks with the same force ID will not stack, but this doesn’t apply to blocks with Force ID 0. Let’s compare these 3 force block setups below:
 
 1. 1 Force block with power of 5.
@@ -75,6 +83,7 @@ Force IDs are only used in force blocks. Blocks with the same force ID will not 
 {{< youtube tkvUBGYX0bE >}}
 
 ## Song Channel IDs
+
 These IDs allow you to add multiple songs in the same level. Depending on how you set up the {{< img src="images/GDEmotes/Triggers/Song.png" class="emote" >}} [Song or Edit Song trigger](/docs/guides/triggers-1/song-edit-song/), the songs can be switched or played simultaneously.
 
 ## Animation IDs
@@ -82,6 +91,7 @@ These IDs allow you to add multiple songs in the same level. Depending on how yo
 Animation IDs give monsters different expressions in the animate trigger. If you want the bat monster to sleep, for example, you would simply type the animation ID which corresponds with the bat’s sleeping animation. The {{< img src="images/GDEmotes/Triggers/Animate.png" class="emote" >}} [Animate Trigger](/docs/guides/triggers-1/animate/) guide details the many possible expressions that you can give.
 
 ## Material IDs
+
 Material IDs make {{< img src="images/GDEmotes/Triggers/EventLink.png" class="emote" >}} [Event Link Triggers](/docs/guides/triggers-1/event-link/) activate when you interact with objects of the specified material ID.
 
 You may assign a Material ID in the “Extra ID” box of the trigger.
@@ -101,6 +111,7 @@ In this example you can see two blocks; one has Material ID 1, while the other h
 Unlike Force IDs, objects with Material ID 0 actually have some interesting applications and bugs. For instance, Material IDs don’t work on objects like orbs or portals. Additionally, if you have triggers for “Tiny/Feather/Soft/Normal or Hard landing”, the trigger will only activate when you hit the ground, not for merely touching the block.
 
 ## Enter Channel IDs
+
 Enter Channels are only used for enter triggers as shown in the image below. Only blocks with the specified Enter Channel will be affected by a certain Enter trigger. This is also set in {{< img src="images/GDEmotes/Buttons/EditGroup.png" class="emote" >}} Edit Group’s “Extra 2” config.
 
 {{< img src="https://lh3.googleusercontent.com/d/1scCXnL0MdgYING9ko-IWqtpaWXOSWrVQ" >}}
@@ -124,6 +135,7 @@ The next set of IDs are easy to grasp on their own, but they also depend on othe
 4. Gradient IDs
 
 ## Effect IDs
+
 Effect IDs are used by {{< img src="images/GDEmotes/Triggers/AreaMove.png" class="emote" >}} [Area](/docs/guides/triggers-1/area-triggers/) and {{< img src="images/GDEmotes/Triggers/EnterMove.png" class="emote" >}} [Enter](/docs/guides/triggers-1/enter-triggers/) triggers. They have four uses depending on the group of triggers they’re used in.
 
 {{< img src="https://lh3.googleusercontent.com/d/1AsKKUBZ1X12_S3z1Ur7EqTy6IDl9sPK6" >}}
@@ -172,11 +184,13 @@ These IDs have many varied applications, but can also be tedious to set up. Make
 3. Trigger Channels
 
 ## Control IDs
+
 ControlIDs only target triggers and gameplay objects. They limit the groups that a trigger targets, much like how you use groups for the same purpose. This can help save groups you’d otherwise use for these objects.
 
 For example, when using a {{< img src="images/GDEmotes/Triggers/Stop.png" class="emote" >}} [Stop trigger](/docs/guides/triggers-1/stop/), you can use Control IDs to stop specific triggers instead of giving them additional groups. Another use for them is in Advanced Follow Triggers where instead of targeting groups, you target control IDs.
 
 ## Item IDs/Timer IDs
+
 Item IDs act like a variable. You use these IDs to store numbers that can then be compared with a specific condition in the level.
 
 Arguably, Item IDs have the most use cases because the triggers they connect with have the most variables to tweak. Update 2.1 added the {{< img src="images/GDEmotes/Triggers/Pickup.png" class="emote" >}} [Pickup](/docs/guides/triggers-1/pickup/), {{< img src="images/GDEmotes/CustomGuideIcons/BasicTriggers/count-instant-count.png" class="emote" >}} [Count, and Instant Count triggers](/docs/guides/triggers-1/count-instant-count/), and 2.2 added {{< img src="images/GDEmotes/CustomGuideIcons/BasicTriggers/item-edit-comp-pers.png" class="emote" >}} [Item Edit, Item Compare and Item Persistence](/docs/guides/triggers-1/item-edit-comp-pers/).
@@ -184,11 +198,13 @@ Arguably, Item IDs have the most use cases because the triggers they connect wit
 Timer IDs are another type of Item ID used for the {{< img src="images/GDEmotes/CustomGuideIcons/BasicTriggers/time-time-event-time-control.png" class="emote" >}} [Time, Time Event, and Time Control triggers](/docs/guides/triggers-1/time-time-event-time-control/). Their main feature is that they can take decimals up to the hundredths place, while Item IDs can only take whole numbers.
 
 ## Trigger Channels
+
 Trigger Channels act like a separate limiter on objects. When you’re playing through a level normally, the only triggers that will activate normally are ones which have the active Trigger Channel. This is explained further in the [Using Channels](/docs/guides/the-editor/using-channels/) guide.
 
 You can change trigger channels using the {{< img src="images/GDEmotes/Triggers/Arrow.png" class="emote" >}} [Arrow Trigger](/docs/guides/triggers-1/reverse-arrow/).
 
 ## Group IDs (again)
+
 To come full circle, let’s revisit group IDs once more. Because of their use cases, they are basically the simplest and most complex ID at the same time. Not only are they necessary for many of the triggers used in this game, but they also come with many different labels:
 
 - Target ID

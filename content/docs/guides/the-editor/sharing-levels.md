@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Sharing Levels
-weight: 1060
+weight: 1090
 date: 2023-03-20T00:00:00.000Z
 description: Whether you are sending your level for feedback, star rate, collabs, or as a gift for someone, it is handy to know how to upload your level. In this guide, we’ll explain how you can share levels.
 authors:
@@ -12,7 +12,7 @@ contributors:
   - lagwerious
 tags:
   - Grade 0
-  - The Editor
+  - Basic Editor
 seo:
   title: How to Upload a Geometry Dash Level
   description: An explanation of every feature you can use when uploading a GD level.

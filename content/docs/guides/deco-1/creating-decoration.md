@@ -139,7 +139,7 @@ Editor and Z layers are best seen in the actual editor, so I strongly recommend 
 
 ## Color Channels
 
-Color Channels are another resource you should organize. These are explained in the [Using Channels](/docs/guides/the-editor/using-channels/) guide, but as before, creators often follow certain guidelines when using them.
+Color Channels are another resource you should organize. These are explained in the [Using Channels](/docs/guides/the-editor/choosing-colors/) guide, but as before, creators often follow certain guidelines when using them.
 
 - **Set aside some channels for special colors.** For instance, many creators use either Color 1 or 2 for pure black. I personally use 1 for pure white, 2 for pure black, and 3 for black with blending (which is invisible).
 - **Know how to find colors you need.** You don't need to organize every single color like how you use Z Layers & Z Order, but you should know how to find colors you use frequently in a level. I personally will scroll through the custom color list until I find one that looks good enough for my needs; if I don't find one, I'll use a new channel or the HSV button.
