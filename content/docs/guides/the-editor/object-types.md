@@ -23,11 +23,13 @@ seo:
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
 
+
 - The Build Tab has 14 different tabs that contain lots of different object types.
 - These object types can be divided into 6 categories that have different uses.
 - Most objects can be put into general tilesets, especially blocks.
 - Out of the 6 categories, Detail Objects contain the most objects.
 - It’s easy to get intimidated by the amount of detail objects when you decorate, so take things slowly.
+
 
 
 {{< /callout >}}
@@ -36,7 +38,7 @@ seo:
 
 Objects are located in the tabs at the top of the heads-up display (HUD) bar.
 
-{{< img src="https://lh3.googleusercontent.com/d/1AaQrRnFSTB4ULDrG46xNbYTlTCunak7z" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1qa5j3wmSR95lC03uT9Rx4URXPx96w7ys" >}}
 
 # 1: Different Types of Objects
 
