@@ -13,20 +13,16 @@ seo:
   canonical: ""
   noindex: false
 ---
-{{< callout context="danger" title="This page is a stub" icon="outline/info-circle" >}}
 
-
-With update 2.209, a lot of changes were made to the editor. This guide is being worked on.
-
-
-{{< /callout >}}
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
-* With the new 2.209 update, RobTop added several tools that you can use in the editor. These include the Visibility tab, the Grid tab, the View tab, and the Helper tab.
+* RobTop added the Visibility tab, the Grid tab, the View tab, and the Helper tab.
 * You can benefit from them in several different ways
+* They all have their own unique benefits and uses
+* Examples of how you can utilize them effectively
 {{< /callout >}}
 
-With the new 2.209 update, RobTop added several tools that you can use in the editor. These include the Visibility tab, the Grid tab, the View tab, and the Helper tab.
+With the new 2.209 update, RobTop added several tools that you can use in the editor. These include the Visibility tab, the Grid tab, the View tab, and the Helper tab. This guide will explain how to use them, where they are, and what they do.
 
 # 1. Visibility Tab
 
@@ -39,8 +35,6 @@ Below are two images of the regular editor, and the editor with the visibility t
 
 {{< img src="" >}}
 {{< /img-grid >}}
-
-
 
 # 2. Grid Tab
 
@@ -57,8 +51,6 @@ On the other hand, if you're creating a large background, a bigger grid size mig
 You can use Shift+G to toggle on your custom grid size, or use Ctrl+G to swap between them, or just simply click the button with the word "Grid" on it to adjust it.
 
 {{< youtube  >}}
-
-
 
 # 3. View Tab
 
