@@ -8,24 +8,27 @@ date: 2024-04-28T00:00:00.000Z
 contributors:
   - sparktwee
   - illusion2
-description: There are lots of object types in Geometry Dash, and this guide will go over them.
+description: There are lots of object types in Geometry Dash, and this guide
+  will go over them.
 tags:
   - Grade 0
   - Basic Editor
 seo:
   title: Every Type of Object in Geometry Dash
-  description: Do you struggle to find objects in the Geometry Dash editor? This guide explains how to find them faster.
+  description: Do you struggle to find objects in the Geometry Dash editor? This
+    guide explains how to find them faster.
   canonical: ""
   noindex: false
 ---
-
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+
 
 - The Build Tab has 14 different tabs that contain lots of different object types.
 - These object types can be divided into 6 categories that have different uses.
 - Most objects can be put into general tilesets, especially blocks.
 - Out of the 6 categories, Detail Objects contain the most objects.
 - It’s easy to get intimidated by the amount of detail objects when you decorate, so take things slowly.
+
 
 {{< /callout >}}
 
@@ -142,6 +145,10 @@ This tab consists of basically every trigger in the game. ALL of these triggers 
 
 The custom tab allows you to combine lots of other objects into one singular custom asset. This can be used to simplify a lot of things, and also transfer things across levels. More information about the custom tab can be found in the [Custom Objects & Autobuild](/docs/guides/the-editor/custom-objects-autobuild/) guide.
 
-{{< img src="https://lh3.googleusercontent.com/d/1ghSJ-1QYzs21H8jsfZVXI_dSN37Z5st-" >}}
+{{< img-grid >}}
+{{< img src="https://lh3.googleusercontent.com/d/1nDZgaiDYs0v0YZaLdZxv0q8Ckbr5d9Mu" >}}
 
-***Note:** these are just my saved assets, yours will probably look different.*
+{{< img src="https://lh3.googleusercontent.com/d/1US19udANEM-IlpjBjkTpeGOORF8qoK3O" >}}
+{{< /img-grid >}}
+
+**\*Note:** these are just my saved assets, yours will probably look different.*
