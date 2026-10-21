@@ -13,13 +13,13 @@ seo:
   canonical: ""
   noindex: false
 ---
-
-
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+
 * RobTop added the Visibility tab, the Grid tab, the View tab, and the Helper tab.
 * You can benefit from them in several different ways
 * They all have their own unique benefits and uses
 * Examples of how you can utilize them effectively
+
 {{< /callout >}}
 
 With the new 2.209 update, RobTop added several tools that you can use in the editor. These include the Visibility tab, the Grid tab, the View tab, and the Helper tab. This guide will explain how to use them, where they are, and what they do.
@@ -31,9 +31,9 @@ The visibility tab allows you to hide the Editor's UI and Interface, so you can 
 Below are two images of the regular editor, and the editor with the visibility tab option turned on. If you are on PC, you can also activate it by pressing Tab.
 
 {{< img-grid >}}
-{{< img src="" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1tSoGw22tKe8b8NZPC85A9b2NMIU9BSY0" >}}
 
-{{< img src="" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1N-cAUINsrkgvHmN1vBW-B1bFLHN08Ycu" >}}
 {{< /img-grid >}}
 
 # 2. Grid Tab
@@ -60,10 +60,10 @@ Most options that were previously in the pause menu are located here now. If you
 
 Here is an image of the new View Tab.
 
-{{< img src="" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1NL3O7U3qQ1JROgPTFxFvYpfJ7iGXoPDK" >}}
 
 # 4. Helper Tab
 
 The Helper Tab holds buttons that were previously in the Pause Menu prior to the 2.209 update. Options such as Build Helper, Select All, Copy + Color, Reset Unused, Select all Left, are all relocated here. It should also be noted that several creators have not known that you can actually scroll down in this tab, revealing way more options. The buttons all do the same thing, and you should try experimenting them if you haven't already.
 
-{{< img src="" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1giHyQEabmYcDiHhoXN2yDs04ZL1oEqzD" >}}
