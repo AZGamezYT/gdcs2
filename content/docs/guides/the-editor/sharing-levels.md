@@ -3,7 +3,7 @@ draft: false
 authors:
   - sparktwee
 title: Sharing Levels
-weight: 1060
+weight: 1090
 date: 2023-03-20T00:00:00.000Z
 contributors:
   - komatic5
@@ -111,15 +111,15 @@ Once the recipient downloads the .gdlvl file, they can simply upload the file on
 
 # 6: Misc. Features
 
-{{< img src="images/GDEmotes/Icons/x.png" >}}
 
- The red X deletes your level from existence. This cannot be undone.
+
+ The {{< img src="images/GDEmotes/Icons/x.png" class="emote">}} red X deletes your level from existence. This cannot be undone.
 
 The {{< img src="images/GDEmotes/Buttons/HelpButton.png" class="emote">}} button directs you to the outdated GD Guide that inspired GDCS to exist and surpass it.
 
-{{< img src="images/GDEmotes/Buttons/Files.png" >}}
 
- The File button lets you duplicate your level. This is perfect for backups.
+
+ The {{< img src="images/GDEmotes/Buttons/Files.png" class="emote" >}} File button lets you duplicate your level. This is perfect for backups.
 {{< img src="images/GDEmotes/Buttons/MoveToTop.png" class="emote">}} The white up arrow places the level you're making to the top of your created levels list.
 
 On the left, you'll see a lone folder staying away from the crowd on the right. If you want to categorize your levels and organize them into previews, collab parts, fully uploaded levels, experiments, or whatever category you wish, this folder will be your best friend.
