@@ -14,7 +14,7 @@ description: Whether you are sending your level for feedback, star rate,
   level. In this guide, we’ll explain how you can share levels.
 tags:
   - Grade 0
-  - The Editor
+  - Basic Editor
 seo:
   title: How to Upload a Geometry Dash Level
   description: An explanation of every feature you can use when uploading a GD level.
