@@ -66,6 +66,9 @@ If you choose to allow copy, the uploaded level will have a folder button allowi
 
 Ticking Requires Password will lock the level by a passcode-protected keypad. If players can type the right code in the keypad, they can copy the level. (Though from personal experience, I have bypassed some of them by completing practice mode.)
 
+{{< callout context="note" title="In 2.2 all levels are free to copy, so the Allow Copy and Requires Password options have been removed." icon="outline/info-circle" >}}
+{{< /callout >}}
+
 If you choose to upload your level as “Unlisted”, you’ll only allow your GD Friends to play the level, as long as you also give them the level ID. This is how creators can collab with each other and merge their parts.
 
 {{< img src="https://lh3.googleusercontent.com/d/10HmKmmKuh2VQlvKVUBehv7UWnARcCbF3" >}}
