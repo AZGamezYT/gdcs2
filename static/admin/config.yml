@@ -17,7 +17,7 @@ tags: &tags
   widget: "select"
   options:
     - Grade 0
-    - The Editor
+    - Basic Editor
     - Advanced Editor
     - Creating Process
     - Your Mindset
