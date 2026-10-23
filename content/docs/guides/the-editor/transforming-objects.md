@@ -50,7 +50,7 @@ Transformations are ways to manipulate 2-dimensional objects. The “Edit” tab
 
 The **arrow buttons** **let you move objects around on the grid**. As you may expect, they move objects in the direction they point, so an the arrow moves objects upward for example.
 
-The number in the middle of the arrow corresponds to the amount an object will move when the arrows are clicked. The arrows in the middle of this tab can change the amount an object moves:
+The number in the middle of the arrow corresponds to the amount an object will move when the arrows are clicked. The arrows in the middle of the edit tab can change the amount an object moves:
 
 * Triple arrow: **5** grid spaces
 * Double arrow: **1** grid space (WASD)
