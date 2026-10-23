@@ -10,9 +10,7 @@ contributors:
   - sparktwee
   - lagwerious
   - poryii
-description: Whether you are sending your level for feedback, star rate,
-  collabs, or as a gift for someone, it is handy to know how to upload your
-  level. In this guide, we’ll explain how you can share levels.
+description: Whether you are sending your level for feedback, star rate, collabs, or as a gift for someone, it is handy to know how to upload your level. In this guide, we’ll explain how you can share levels.
 tags:
   - Grade 0
   - Basic Editor
@@ -89,10 +87,9 @@ The {{< img src="images/GDEmotes/Icons/RedPlus.png" class="emote">}} sticker dea
 
 In the new 2.209 update, RobTop decided to add a feature similar to the Geode mod GDShare, which was a mod that allowed users to share levels as .gmd files, prior to the 2.209 update. It does the same thing, except the buttons are in different locations. There are several benefits to this, like sharing levels without having to unlist them every time for a collab, or even making backups for your level in case you delete it accidentally.
 
-Once you press the Pause button in the top right corner of the editor (or press esc) there will be a button called "Export." Press that button and a popup will appear, asking you where you would like to export the level to. 
+Once you press the Pause button in the top right corner of the editor (or press esc) there will be a button called "Export." Press that button and a popup will appear, asking you where you would like to export the level to.
 
 {{< img-grid >}}
-
 
 {{< img src="https://lh3.googleusercontent.com/d/18VXhFBSSWqg_2Nt3D1sMCtvedMww2HhJ" >}}
 
@@ -107,20 +104,15 @@ Once the recipient downloads the .gdlvl file, they can simply upload the file on
 
 {{< img src="https://lh3.googleusercontent.com/d/1X64sHqhr94m9vMSgK4YQWBKGtrCLV7LW" >}}
 
-
-
 # 6: Misc. Features
 
-
-
- The {{< img src="images/GDEmotes/Icons/x.png" class="emote">}} red X deletes your level from existence. This cannot be undone.
+The {{< img src="images/GDEmotes/Icons/x.png" class="emote">}} red X deletes your level from existence. This cannot be undone.
 
 The {{< img src="images/GDEmotes/Buttons/HelpButton.png" class="emote">}} button directs you to the outdated GD Guide that inspired GDCS to exist and surpass it.
 
+The {{< img src="images/GDEmotes/Buttons/Files.png" class="emote" >}} File button lets you duplicate your level. This is perfect for backups.
 
-
- The {{< img src="images/GDEmotes/Buttons/Files.png" class="emote" >}} File button lets you duplicate your level. This is perfect for backups.
-{{< img src="images/GDEmotes/Buttons/MoveToTop.png" class="emote">}} The white up arrow places the level you're making to the top of your created levels list.
+The {{< img src="images/GDEmotes/Buttons/MoveToTop.png" class="emote">}} white up arrow places the level you're making to the top of your created levels list.
 
 On the left, you'll see a lone folder staying away from the crowd on the right. If you want to categorize your levels and organize them into previews, collab parts, fully uploaded levels, experiments, or whatever category you wish, this folder will be your best friend.
 

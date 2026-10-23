@@ -1,8 +1,10 @@
 ---
 draft: false
 title: Helper Tools
+authors:
+  - poryii
 weight: 1110
-date: 2026-10-21
+date: 2026-10-21T00:00:00.000Z
 description: This guide explains how to use the utility functions the editor provides.
 tags:
   - Grade 0
@@ -13,20 +15,18 @@ seo:
   canonical: ""
   noindex: false
 ---
-{{< callout context="caution" title="Heads up" icon="alert-triangle" >}}
-This guide needs proofreading.
+{{< callout context="caution" title="Heads up" icon="outline/alert-triangle" >}}
+
+* This guide needs proofreading.
+
 {{< /callout >}}
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
-
-
 
 * RobTop added the Visibility tab, the Grid tab, the View tab, and the Helper tab.
 * You can benefit from them in several different ways
 * They all have their own unique benefits and uses
 * Examples of how you can utilize them effectively
-
-
 
 {{< /callout >}}
 
@@ -52,7 +52,7 @@ You may have heard of "Grid Snap." anything you move will automatically auto-sna
 
 An example of this could be separating triggers from each other if you'd like to make them more organized and neat. It also allows you to get a clearer reference if you're trying to make objects bigger or smaller.
 
-It is also particularly useful if you have different deco details. Some grid sizes may be better to use as a reference. When creating small details in a block design, you can make the grid size smaller so you can line anything up to make it look as smooth as possible. 
+It is also particularly useful if you have different deco details. Some grid sizes may be better to use as a reference. When creating small details in a block design, you can make the grid size smaller so you can line anything up to make it look as smooth as possible.
 
 On the other hand, if you're creating a large background, a bigger grid size might be better so you can see everything more clearly and use bigger reference points if you're trying to recreate something, similar to the grid method in portraiture drawing.
 
