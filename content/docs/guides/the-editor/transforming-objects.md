@@ -18,7 +18,6 @@ tags:
 seo:
   title: How to Transform Objects in Geometry Dash
   description: An extensive explanation of how the Transform features work in GD,
-    such as the Warp button.
   canonical: ""
   noindex: false
 ---
