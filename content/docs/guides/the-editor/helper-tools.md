@@ -90,9 +90,13 @@ The list of options here are:
 * **Trace In:** Traces the trigger that activates/affects the selected object.
 * **Trace Out:** Traces the objects that the trigger activates/affects; the opposite of Trace In.
 
+Here is a video showcasing these options:
 
+{{< youtube  >}}
 
+Here is a video showcasing Death Markers:
 
+{{< youtube  >}}
 
 # 4. Helper Tab
 
