@@ -66,6 +66,34 @@ Here is an image of the new View Tab.
 
 {{< img src="https://lh3.googleusercontent.com/d/1NL3O7U3qQ1JROgPTFxFvYpfJ7iGXoPDK" >}}
 
+The list of options here are:
+
+* **Preview Mode:** Preview the level how you would see it in-game when you are playing it.
+* **Hitbox:** Shows hitboxes of objects
+* **Hide Invis:** Toggles on or off showing objects with the "Hide" option enabled in Edit Group -> Extra.
+* **LDM:** Preview the level how you would see it in-game with Low-Detail Mode.
+* **Anims:** Toggles on/off animations of objects in the animated tab.
+* **Particle:** Toggles on/off previewing particle objects in the editor.
+* **Shader:** Toggles on/off previewing shaders in the editor.
+* **Ground:** Shows/Hides the ground.
+* **O Info**: Shows/Hides object information when selecting them.
+* **Grid:** Toggles on/off the editor grid.
+* **Select Filter:** Toggles on/off the select filter option, allowing you to choose certain objects.
+* **Ignore Damage:** Ignores deaths during playtesting in the editor.
+* **Effect Lines:** Toggles on/off trigger lines that show when it will occur.
+* **Dur Lines:** Toggles on/off trigger lines that show the duration of the trigger.
+* **Song Lines:** Shows/Hides lines you make yourself in Custom Song Selection -> Create Lines
+* **BPM Lines:** Shows/Hides lines made from the BPM trigger.
+* **Local Markers:** Shows/Hides where you have died in the level.
+* **Global Markers:** Shows/Hides where everyone has died in the level.
+* **Marker Labels:** Shows/Hides the amount of times someone has died there.
+* **Trace In:** Traces the trigger that activates/affects the selected object.
+* **Trace Out:** Traces the objects that the trigger activates/affects; the opposite of Trace In.
+
+
+
+
+
 # 4. Helper Tab
 
 The Helper Tab holds buttons that were previously in the Pause Menu prior to the 2.209 update. Options such as Build Helper, Select All, Copy + Color, Reset Unused, Select all Left, are all relocated here. It should also be noted that several creators have not known that you can actually scroll down in this tab, revealing way more options. The buttons all do the same thing, and you should try experimenting them if you haven't already.
