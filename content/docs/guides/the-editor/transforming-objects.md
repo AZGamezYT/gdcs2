@@ -21,14 +21,6 @@ seo:
   canonical: ""
   noindex: false
 ---
-{{< callout context="danger" title="This guide is outdated" icon="outline/info-circle" >}}
-
-
-With update 2.209, a lot of changes were made to the editor. This guide on its current state holds up until 2.208, and is currently being updated.
-
-
-{{< /callout >}}
-
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
 - The edit tab is home to all the tools needed for transforming objects in the editor.
@@ -81,11 +73,13 @@ Here are some example grid size conversions:
 * 0.5x default grid: **15** units
 * 0.25x default  grid: **7.5** units
 
-GridSize Example
+{{< youtube xECWomz5xYk >}}
 
 # 2: Flip Buttons
 
 The **flip buttons** **reflect objects horizontally and vertically**. This is mostly self-explanatory, but it’s important to pay attention to flipping objects with abnormal hitboxes.
+
+{{< img src="https://lh3.googleusercontent.com/d/1dGT9A9kHpR_Xn08tagfVPJOdz5C46yig" >}}
 
 For example, if you want a slope to face in the opposite direction, you need to use the flip buttons. Rotating it 180 degrees will cause the hitbox to be **backwards**, which is hard to notice at a glance and is generally undesirable.
 
@@ -103,15 +97,15 @@ The rotation buttons are all labeled with large circular arrows, some with text 
 
 **Static objects** with NoTouch disabled can only be rotated in 90 degree angles; if you enable “Allow Static Rotate”, they will only visually change their appearance. **Non-Static objects** can be rotated using any of the rotation buttons, as well as the Free Rotate buttons.
 
-PULL REQUEST REVIEWER: once the first video in https://discord.com/channels/414295025883545600/1352758218253926510/1562663949411946506 is uploaded to the GDCS examples channel, please link it here.
+{{< youtube QyKNGd7pfH8 >}}
 
 Rotation can be very helpful for decoration if you want a shape to face a certain angle.
 
-PULL REQUEST REVIEWER: once the second video in https://discord.com/channels/414295025883545600/1352758218253926510/1562663949411946506 is uploaded to the GDCS examples channel, please link it here.
+{{< youtube PhB2dU9y3-w >}}
 
 It is also helpful for trigger setups if you want a group of triggers to activate at an equal distance, without needing to use Align X to get them in the right place.
 
-PULL REQUEST REVIEWER: once the third video in https://discord.com/channels/414295025883545600/1352758218253926510/1562663949411946506 is uploaded to the GDCS examples channel, please link it here.
+{{< youtube vunEH4FTqjo >}}
 
 # 4: Warp & Scale Buttons
 
@@ -124,8 +118,8 @@ The “__Scale__” button with a horizontal *and* vertical line scales an objec
 The “__Warp__” button (Ctrl+T) lets you transform an object to infinite size as well as skewing. Drag the circle in the middle to set the center for scaling and skewing. Then, use the side buttons to scale your object horizontally or vertically, the corners to scale both at once, and the side rectangles to skew. The circle outside the warp UI rotates it just like Free Rotate. The buttons above the warp interface do the following:
 
 * Lock button: Retains the object’s aspect ratio when using the corner buttons
-* Box w/ line connecting the corners: Automatically anchors the center circle to the opposite side or corner from which you are warping
+* Box with line connecting the corners: Automatically anchors the center circle to the opposite side or corner from which you are warping
 * Grid: Snaps anchors to grid
 * Rotate: Lets you rotate the anchors, but not the actual object
 
-(Video)
+{{< youtube 8OZdomCo88I >}}
