@@ -8,7 +8,7 @@ date: 2024-01-07T00:00:00.000Z
 contributors:
   - komatic5
   - vexilo5
-  - sethlai 
+  - sethlai
 description: The Edit tab contains tools for transforming objects through
   movement, flipping, rotation, warping, and scaling. This guide explains how to
   use these tools in order to control object properties in the editor.
@@ -17,17 +17,20 @@ tags:
   - Basic Editor
 seo:
   title: How to Transform Objects in Geometry Dash
-  description: How to use the traslation, flipping, rotation, scaling and warping transformations in Geometry Dash.
+  description: How to use the traslation, flipping, rotation, scaling and warping
+    transformations in Geometry Dash.
   canonical: ""
   noindex: false
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+
 
 - The edit tab is home to all the tools needed for transforming objects in the editor.
 - The arrow buttons move objects in a particular direction by a certain amount according to their grid size.
 - The flip buttons reflect objects about a certain axis.
 - The rotation buttons turn objects by either predefined amounts or freely.
 - The warp and scale buttons can grow, shrink, and skew objects.
+
 
 
 {{< /callout >}}
@@ -40,7 +43,7 @@ Transformations are ways to manipulate 2-dimensional objects. The “Edit” tab
 
 # 1: Arrow Buttons
 
-The **arrow buttons** **let you move objects around on the grid**. As you may expect, they move objects in the direction they point, so an the arrow moves objects upward for example.
+The **arrow buttons** **let you move objects around on the grid**. As you may expect, they move objects in the direction they point, so the up arrow moves objects upward for example.
 
 The number in the middle of the arrow corresponds to the amount an object will move when the arrows are clicked. The arrows in the middle of the edit tab can change the amount an object moves:
 
@@ -56,7 +59,7 @@ The number in the middle of the arrow corresponds to the amount an object will m
 
 As for the legacy edit menu, the one that came before update 2.209 (which can be toggled on in the settings), the arrow icon on each of the buttons depends on how much they move objects:
 
-* Small arrow: **1/60th** grid space
+* Small arrow: **1/60th** of a grid space
 * Single arrow: **1/15th** of a grid space (Shift + WASD)
 * Single arrow split in two: **1/2** of a grid space
 * Double arrow: **1** grid space (WASD)
@@ -111,11 +114,11 @@ It is also helpful for trigger setups if you want a group of triggers to activat
 
 **Scaling** **changes an object’s size and aspect ratio**, while **Warping** **changes its skew**. These are the three buttons in the bottom right of the Edit tab.
 
-The “__Scale__” button with one horizontal line scales an entire object’s size. By default, it ranges from 0.5x to 2x scale, but can be expanded to 0.25x and 4x scale with the “Increase Scale” setting enabled. Additionally, if the lock button above the scaling interface is toggled off ("unlocked"), every selected object in a group will scale based on the center of the group. If it is on (locked), each selected object in a group will scale based on its own center.
+The “**Scale**” button with one horizontal line scales an entire object’s size. By default, it ranges from 0.5x to 2x scale, but can be expanded to 0.25x and 4x scale with the “Increase Scale” setting enabled. Additionally, if the lock button above the scaling interface is toggled off ("unlocked"), every selected object in a group will scale based on the center of the group. If it is on (locked), each selected object in a group will scale based on its own center.
 
-The “__Scale__” button with a horizontal *and* vertical line scales an object’s horizontal and vertical size independently, just like a Scale trigger.
+The “**Scale**” button with a horizontal *and* vertical line scales an object’s horizontal and vertical size independently, just like a Scale trigger.
 
-The “__Warp__” button (Ctrl+T) lets you transform an object to infinite size as well as skewing. Drag the circle in the middle to set the center for scaling and skewing. Then, use the side buttons to scale your object horizontally or vertically, the corners to scale both at once, and the side rectangles to skew. The circle outside the warp UI rotates it just like Free Rotate. The buttons above the warp interface do the following:
+The “**Warp**” button (Ctrl+T) lets you transform an object to infinite size as well as skewing. Drag the circle in the middle to set the center for scaling and skewing. Then, use the side buttons to scale your object horizontally or vertically, the corners to scale both at once, and the side rectangles to skew. The circle outside the warp UI rotates it just like Free Rotate. The buttons above the warp interface do the following:
 
 * Lock button: Retains the object’s aspect ratio when using the corner buttons
 * Box with line connecting the corners: Automatically anchors the center circle to the opposite side or corner from which you are warping
