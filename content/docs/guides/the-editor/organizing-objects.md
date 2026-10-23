@@ -24,11 +24,13 @@ seo:
 
 
 
+
 - Editor layers are separate layers in a level. You can use these to sort and organize objects and easily select specific objects.
 - To change an object's layer, select it, click Edit Group and change the layer using the arrows at the top.
 - Editor locking prevents you from deleting or selecting objects in a layer. You can enable this by clicking the "Layer Locking" setting in the settings menu within the editor menu.
 - Select Filter allows you to select objects with specific attributes. You can set these attributes in the delete tab.
 - Select All selects every object in the current editor layer. You can do this by pressing one of three select all buttons in the editor pause menu.
+
 
 
 
@@ -103,7 +105,9 @@ Out of the four right buttons, **the bottom right button is the only one that wo
 # 3: Select All
 
 **Select all** selects every object in the current editor layer. You can do this by pressing one of the three select all buttons in the editor pause menu.
-{{< youtube [DxATV1HaSIQ](https://youtu.be/DxATV1HaSIQ) >}}
+
+
+{{< youtube DxATV1HaSIQ >}}
 
 * **Select All**: Selects every object in the current editor layer.
 * **Select All Left**: Selects every object to the left of the center of the screen (indicated by an opaque vertical line on the screen).
