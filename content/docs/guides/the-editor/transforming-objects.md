@@ -82,7 +82,7 @@ Here are some example grid size conversions:
 
 The **flip buttons** **reflect objects horizontally and vertically**. This is mostly self-explanatory, but it’s important to pay attention to flipping objects with abnormal hitboxes.
 
-{{< img src="https://lh3.googleusercontent.com/d/1dGT9A9kHpR_Xn08tagfVPJOdz5C46yig" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1Jd7d8JahjqN6PPkykafw_lWKF6NetME6" >}}
 
 For example, if you want a slope to face in the opposite direction, you need to use the flip buttons. Rotating it 180 degrees will cause the hitbox to be **backwards**, which is hard to notice at a glance and is generally undesirable.
 
