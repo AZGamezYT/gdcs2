@@ -8,6 +8,7 @@ date: 2024-01-07T00:00:00.000Z
 contributors:
   - komatic5
   - vexilo5
+  - sethlai 
 description: The Edit tab contains tools for transforming objects through
   movement, flipping, rotation, warping, and scaling. This guide explains how to
   use these tools in order to control object properties in the editor.
