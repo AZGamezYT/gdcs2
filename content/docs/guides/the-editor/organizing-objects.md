@@ -8,6 +8,7 @@ date: 2024-04-03T00:00:00.000Z
 contributors:
   - tdp9
   - tv_box
+  - poryii
 description: In this editor guide we’ll go over things you’ll need to organize
   your objects. This will make creating a lot less painful in the long run.
 tags:
