@@ -13,7 +13,7 @@ seo:
   canonical: ""
   noindex: false
 ---
-{{< callout context="caution" title="Warning" icon="alert-triangle" >}}
+{{< callout context="caution" title="Heads up" icon="alert-triangle" >}}
 This guide needs proofreading.
 {{< /callout >}}
 
