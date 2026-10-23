@@ -17,7 +17,7 @@ tags:
   - Basic Editor
 seo:
   title: How to Transform Objects in Geometry Dash
-  description: An extensive explanation of how the Transform features work in GD,
+  description: How to use the traslation, flipping, rotation, scaling and warping transformations in Geometry Dash.
   canonical: ""
   noindex: false
 ---
