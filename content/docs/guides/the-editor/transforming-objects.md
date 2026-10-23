@@ -87,7 +87,7 @@ GridSize Example
 
 The **flip buttons** **reflect objects horizontally and vertically**. This is mostly self-explanatory, but it’s important to pay attention to flipping objects with abnormal hitboxes.
 
-For example, if you want a slope to face in the opposite direction, you need to use the flip buttons. Rotating it 180 degrees will cause the hitbox to be backwards, which is hard to notice at a glance and is generally undesirable.
+For example, if you want a slope to face in the opposite direction, you need to use the flip buttons. Rotating it 180 degrees will cause the hitbox to be **backwards**, which is hard to notice at a glance and is generally undesirable.
 
 {{< img src="https://lh3.googleusercontent.com/d/1hwYVhlXhV1H2A361ejnasREM2ifOQYxW" >}}
 
@@ -117,13 +117,15 @@ PULL REQUEST REVIEWER: once the third video in https://discord.com/channels/4142
 
 **Scaling** **changes an object’s size and aspect ratio**, while **Warping** **changes its skew**. These are the three buttons in the bottom right of the Edit tab.
 
-The “Scale” button with one horizontal line scales an entire object’s size. By default, it ranges from 0.5x to 2x scale, but can be expanded to 0.25x and 4x scale with the “Increase Scale” setting enabled. Additionally, if the lock button above the scaling interface is toggled off ("unlocked"), every selected object in a group will scale based on the center of the group. If it is on (locked), each selected object in a group will scale based on its own center.
+The “__Scale__” button with one horizontal line scales an entire object’s size. By default, it ranges from 0.5x to 2x scale, but can be expanded to 0.25x and 4x scale with the “Increase Scale” setting enabled. Additionally, if the lock button above the scaling interface is toggled off ("unlocked"), every selected object in a group will scale based on the center of the group. If it is on (locked), each selected object in a group will scale based on its own center.
 
-The “Scale” button with a horizontal *and* vertical line scales an object’s horizontal and vertical size independently, just like a Scale trigger.
+The “__Scale__” button with a horizontal *and* vertical line scales an object’s horizontal and vertical size independently, just like a Scale trigger.
 
-The “Warp” button (Ctrl+T) lets you transform an object to infinite size as well as skewing. Drag the circle in the middle to set the center for scaling and skewing. Then, use the side buttons to scale your object horizontally or vertically, the corners to scale both at once, and the side rectangles to skew. The circle outside the warp UI rotates it just like Free Rotate. The buttons above the warp interface do the following:
+The “__Warp__” button (Ctrl+T) lets you transform an object to infinite size as well as skewing. Drag the circle in the middle to set the center for scaling and skewing. Then, use the side buttons to scale your object horizontally or vertically, the corners to scale both at once, and the side rectangles to skew. The circle outside the warp UI rotates it just like Free Rotate. The buttons above the warp interface do the following:
 
 * Lock button: Retains the object’s aspect ratio when using the corner buttons
 * Box w/ line connecting the corners: Automatically anchors the center circle to the opposite side or corner from which you are warping
 * Grid: Snaps anchors to grid
 * Rotate: Lets you rotate the anchors, but not the actual object
+
+(Video)
