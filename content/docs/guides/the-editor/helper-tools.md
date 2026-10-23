@@ -15,10 +15,14 @@ seo:
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
+
+
 * RobTop added the Visibility tab, the Grid tab, the View tab, and the Helper tab.
 * You can benefit from them in several different ways
 * They all have their own unique benefits and uses
 * Examples of how you can utilize them effectively
+
+
 
 {{< /callout >}}
 
@@ -67,3 +71,29 @@ Here is an image of the new View Tab.
 The Helper Tab holds buttons that were previously in the Pause Menu prior to the 2.209 update. Options such as Build Helper, Select All, Copy + Color, Reset Unused, Select all Left, are all relocated here. It should also be noted that several creators have not known that you can actually scroll down in this tab, revealing way more options. The buttons all do the same thing, and you should try experimenting them if you haven't already.
 
 {{< img src="https://lh3.googleusercontent.com/d/1giHyQEabmYcDiHhoXN2yDs04ZL1oEqzD" >}}
+
+The list of options here are:
+
+* **Regroup:** Assigns existing triggers the lowest next free group.
+* **Build Helper:** Assigns the next free group IDs when copying a trigger setup.
+* **Create Loop:** Quickly sets up a spawn loop for your trigger setup.
+* **Create Gradient:** Quickly sets up a gradient with vertex mode and assigns group IDs for the corners of the gradient.
+* **Align X:** Equally distributes selected objects horizontally.
+* **Align Y:** Equally distributes selected objects vertically.
+* **Distribute X:** Evenly distributes selected objects on the X axis with the same spacing.
+* **Distribute Y:** Evenly distributes selected objects on the Y axis with the same spacing.
+* **Select All:** Selects every object in the current layer; can be used with Select Filter option in the Delete tab.
+* **Select All Left:** Selects every object in the current layer, but only to the left of the editor; can be used with Select Filter option in the Delete tab.
+* **Select All Right:** Selects every object in the current layer, but only to the right of the editor; can be used with Select Filter option in the Delete tab.
+* **New Group X:** For multiple groups, new IDs are ordered horizontally, from least to greatest (Left to right).
+* **New Group Y:** For multiple groups, new IDs are ordered vertically, from greatest to least (Top to bottom).
+* **Copy + Color:** Copies an object while saving it’s color; good for transferring assets over to other levels.
+* **Paste + Color:** Pastes an object keeping its color using the next available Color channels.
+* **Create Extras:** Adds extra details for certain objects such as filling in the 2.1 rock objects.
+* **Unlock Layers:** Unlocks every locked layer at the same time.
+* **Reset Unused:** Resets every color channel that is not targeting an object to white. (Unused color channels)
+* **Uncheck Portals:** Removes the lines that mark a gamemode portal’s border when you enable the "Preview" option in edit group.
+
+Here is a video showcasing these features:
+
+{{< youtube  >}}
