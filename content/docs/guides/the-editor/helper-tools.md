@@ -1,6 +1,8 @@
 ---
 draft: false
 title: Helper Tools
+authors:
+  - poryii
 weight: 1110
 date: 2026-10-21
 description: This guide explains how to use the utility functions the editor provides.
