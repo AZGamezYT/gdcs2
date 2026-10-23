@@ -92,11 +92,11 @@ The list of options here are:
 
 Here is a video showcasing these options:
 
-{{< youtube  >}}
+{{< youtube bb-pVktN9Ds >}}
 
 Here is a video showcasing Death Markers:
 
-{{< youtube  >}}
+{{< youtube jUrzbceaC6o >}}
 
 # 4. Helper Tab
 
@@ -128,4 +128,4 @@ The list of options here are:
 
 Here is a video showcasing these features:
 
-{{< youtube  >}}
+{{< youtube Jpp53xs6kZ4 >}}
