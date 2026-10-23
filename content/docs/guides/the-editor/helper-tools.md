@@ -1,8 +1,6 @@
 ---
 draft: false
 title: Helper Tools
-authors:
-  - poryii
 weight: 1110
 date: 2026-10-21
 description: This guide explains how to use the utility functions the editor provides.
@@ -15,6 +13,10 @@ seo:
   canonical: ""
   noindex: false
 ---
+{{< callout context="caution" title="Warning" icon="alert-triangle" >}}
+This guide needs proofreading.
+{{< /callout >}}
+
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
 
@@ -94,7 +96,7 @@ The list of options here are:
 
 Here is a video showcasing these options:
 
-{{< youtube bb-pVktN9Ds >}}
+{{< youtube  >}}
 
 Here is a video showcasing Death Markers:
 
