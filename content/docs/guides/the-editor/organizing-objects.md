@@ -23,11 +23,13 @@ seo:
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
 
+
 - Editor layers are separate layers in a level. You can use these to sort and organize objects and easily select specific objects.
 - To change an object's layer, select it, click Edit Group and change the layer using the arrows at the top.
 - Editor locking prevents you from deleting or selecting objects in a layer. You can enable this by clicking the "Layer Locking" setting in the settings menu within the editor menu.
 - Select Filter allows you to select objects with specific attributes. You can set these attributes in the delete tab.
 - Select All selects every object in the current editor layer. You can do this by pressing one of three select all buttons in the editor pause menu.
+
 
 
 
@@ -43,7 +45,7 @@ You can go to layers by pressing the {{< img src="images/GDEmotes/Buttons/PinkAr
 
 The **"All"** layer shows you every single layer. Every layer after that is numbered and only focuses on that layer. All other objects in other layers will become see-through, and you will be unable to build, edit, or delete objects on those layers.
 
-{{< youtube QkLNQI_M8qo >}}
+{{< youtube rwxonhVcQ3Y >}}
 
 * If you place objects down on the "All" section, those objects go to layer 0 by default.
 * If you have an object selected and press the {{< img src="images/GDEmotes/Buttons/GoToLayer.png" class="emote">}} **Go To Layer** button above the layer interface, you are brought to the layer that the object is in.
@@ -53,7 +55,7 @@ The **"All"** layer shows you every single layer. Every layer after that is numb
 
 At the top of {{< img src="images/GDEmotes/Buttons/EditGroup.png" class="emote">}} Edit Group, there are two options for "Editor L" and "Editor L2". Here, you can assign two different editor layers for an object to be in.
 
-{{< youtube 7lUnQSdz1to >}}
+{{< youtube SRA5rgCDeHM >}}
 
 0 is the default layer for Editor L2 and will be ignored as a value, meaning if Editor L is set to 5 and Editor L2 is at 0, the object will only appear on Editor Layer 5. If you want the object to be on Editor Layer 0, you must keep Editor L at 0.
 
@@ -69,7 +71,7 @@ You can "Lock" editor layers if you have the "[Layer Locking](/docs/guides/the-e
 
 To unlock all layers in your level, press the "[Unlock Layers](/docs/guides/the-editor/editor-settings/#right-screen-options)" button.
 
-{{< youtube E1qhhq6Uu74 >}}
+{{< youtube gwgdjI6ZkaY >}}
 
 # 2: Select Filter
 
@@ -94,14 +96,14 @@ The trash button to the left of these filters resets the GroupID and Color Chann
 * The Color Filter has extra options to select Special Colors by pressing the blue plus button: Obj, Lighter, 3DL, P1, and P2.
 * The trash button in the top right of the filter menus resets the current filter.
 
-{{< youtube 9fA-URaI8EU >}}
+{{< youtube R8WHURiq_U0 >}}
 
 Out of the four right buttons, **the bottom right button is the only one that works with the select filter.** It allows you to select objects of the same object type as your currently selected object. Choosing "None" will revert the selection to normal. Static deletes [static objects](/docs/guides/the-editor/static-objects/) like blocks. Details target everything else.
 
 # 3: Select All
 
 **Select all** selects every object in the current editor layer. You can do this by pressing one of the three select all buttons in the editor pause menu.
-{{< youtube TQ2Xvf3J3aI >}}
+{{< youtube [DxATV1HaSIQ](https://youtu.be/DxATV1HaSIQ) >}}
 
 * **Select All**: Selects every object in the current editor layer.
 * **Select All Left**: Selects every object to the left of the center of the screen (indicated by an opaque vertical line on the screen).
