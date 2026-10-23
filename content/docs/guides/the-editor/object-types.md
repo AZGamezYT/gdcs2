@@ -8,6 +8,7 @@ date: 2024-04-28T00:00:00.000Z
 contributors:
   - sparktwee
   - illusion2
+  - poryii
 description: There are lots of object types in Geometry Dash, and this guide
   will go over them.
 tags:
