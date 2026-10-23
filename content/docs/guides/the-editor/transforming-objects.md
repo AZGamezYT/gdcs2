@@ -9,29 +9,23 @@ contributors:
   - komatic5
   - vexilo5
   - sethlai
-description: The Edit tab contains tools for transforming objects through
-  movement, flipping, rotation, warping, and scaling. This guide explains how to
-  use these tools in order to control object properties in the editor.
+description: The Edit tab contains tools for transforming objects through movement, flipping, rotation, warping, and scaling. This guide explains how to use these tools in order to control object properties in the editor.
 tags:
   - Grade 0
   - Basic Editor
 seo:
   title: How to Transform Objects in Geometry Dash
-  description: How to use the traslation, flipping, rotation, scaling and warping
-    transformations in Geometry Dash.
+  description: How to use the traslation, flipping, rotation, scaling and warping transformations in Geometry Dash.
   canonical: ""
   noindex: false
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
-
 
 - The edit tab is home to all the tools needed for transforming objects in the editor.
 - The arrow buttons move objects in a particular direction by a certain amount according to their grid size.
 - The flip buttons reflect objects about a certain axis.
 - The rotation buttons turn objects by either predefined amounts or freely.
 - The warp and scale buttons can grow, shrink, and skew objects.
-
-
 
 {{< /callout >}}
 

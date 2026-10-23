@@ -13,30 +13,23 @@ contributors:
   - halfcookedramen
   - komatic5
   - poryii
-description: As a GD creator, you actually have a lot more options for songs
-  than just the main level soundtracks. You can grab songs from Newgrounds, the
-  music library, or even use a NONG (Not On NewGrounds). Here are a couple of
-  ways to do that.
+description: As a GD creator, you actually have a lot more options for songs than just the main level soundtracks. You can grab songs from Newgrounds, the music library, or even use a NONG (Not On NewGrounds). Here are a couple of ways to do that.
 tags:
   - Grade 0
   - Basic Editor
 seo:
   title: How to Choose a Song in Geometry Dash
-  description: A short guide to choosing a song for your Geometry Dash level,
-    using Newgrounds, the Music Library, and NONG file replacement.
+  description: A short guide to choosing a song for your Geometry Dash level, using Newgrounds, the Music Library, and NONG file replacement.
   canonical: ""
   noindex: false
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
-
 
 - There are 3 main ways to use songs in GD: Newgrounds, the music library and NONGs.
 - Newgrounds is the built in way to use songs that aren’t used in official levels.
 - The music library is a list of songs that users can choose for their levels; you can choose songs from a specific artist or genre.
 - NONGs involve replacing a song in GD’s song folder on your device.
 - The start offset dictates what part of the song should start playing when a level begins.
-
-
 
 {{< /callout >}}
 
