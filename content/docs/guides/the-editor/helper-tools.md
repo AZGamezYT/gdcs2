@@ -54,7 +54,7 @@ On the other hand, if you're creating a large background, a bigger grid size mig
 
 You can use Shift+G to toggle on your custom grid size, or use Ctrl+G to swap between them, or just simply click the button with the word "Grid" on it to adjust it.
 
-{{< youtube  >}}
+{{< youtube YCXkqCEfpwY >}}
 
 # 3. View Tab
 
