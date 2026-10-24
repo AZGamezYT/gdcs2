@@ -1,8 +1,8 @@
 ---
 draft: false
-title: Helper Tools
 authors:
   - poryii
+title: Helper Tools
 weight: 1110
 date: 2026-10-21T00:00:00.000Z
 description: This guide explains how to use the utility functions the editor provides.
@@ -15,28 +15,23 @@ seo:
   canonical: ""
   noindex: false
 ---
-{{< callout context="caution" title="Heads up" icon="outline/alert-triangle" >}}
 
-* This guide needs proofreading.
-
-{{< /callout >}}
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
-
-* RobTop added the Visibility tab, the Grid tab, the View tab, and the Helper tab.
-* You can benefit from them in several different ways
-* They all have their own unique benefits and uses
-* Examples of how you can utilize them effectively
-
+* This guide covers the new Visibility, Grid, View, and Helper tabs.
+* The Visibility tab lets you hide the editor interface.
+* The Grid tab gives you the ability to modify the grid size.
+* The View tab shows options for changing what visuals are shown.
+* The Helper tab enables the use of auxiliary tools to speed up creation.
 {{< /callout >}}
 
-With the new 2.209 update, RobTop added several tools that you can use in the editor. These include the Visibility tab, the Grid tab, the View tab, and the Helper tab. This guide will explain how to use them, where they are, and what they do.
+With the new 2.209 update, RobTop added several new tools that you can use in the editor. These include the Visibility tab, the Grid tab, the View tab, and the Helper tab. This guide will explain their usage, purposes, and how to best utilize them to their full potential.
 
 # 1. Visibility Tab
 
-The visibility tab allows you to hide the Editor's UI and Interface, so you can get a clear look at your own level inside of the editor. Since it removes all menus on your screen, you will be able to see the level the way a normal player would see it when they play the level. It also allows you to take clear screenshots without any visual disruptions, or even to just try to spot any defects you may have in your level.
+The Visibility tab allows you to hide the Editor's UI and interface, so you can get a clear look at your own level inside the editor. Since it removes all menus on your screen, you are able to see the level the way a normal player would see it when they play the level. It also allows you to take clear screenshots without any visual obstructions, or to spot any defects there may be in your level.
 
-Below are two images of the regular editor, and the editor with the visibility tab option turned on. If you are on PC, you can also activate it by pressing Tab.
+Below are two images of the editor with and without the visibility tab option turned on. If you are on PC, you can also activate it by pressing Tab.
 
 {{< img-grid >}}
 {{< img src="https://lh3.googleusercontent.com/d/1tSoGw22tKe8b8NZPC85A9b2NMIU9BSY0" >}}
@@ -46,34 +41,34 @@ Below are two images of the regular editor, and the editor with the visibility t
 
 # 2. Grid Tab
 
-The grid tab allows you to change the size of the grid in the editor. You may be thinking "Well, isn't that kind of useless? compared to the Visibility Tab, the grid tab doesn't really do much!" You'd be right, if not for these factors.
+The Grid tab allows you to change the size of the grid in the editor. You may be thinking, "Well, isn't that kind of useless? Compared to the Visibility tab, the Grid tab doesn't really do much!" You'd be right, if not for these factors.
 
-You may have heard of "Grid Snap." anything you move will automatically auto-snap to the center of the nearest grid. Adjusting the grid size with the grid tab can change this, enabling you to make objects lock cleanly to wherever you want. It also changes the distance on how objects move, with a bigger scale with a bigger grid or a smaller scale with a smaller grid.
+With Grid Snap enabled, anything you move freely will automatically snap to the center of the nearest grid square. Adjusting the grid size with the Grid tab changes the snapping precision, enabling you to lock objects cleanly to your desired grid spaces. It also modifies the distance objects move, as the scale of movement is proportional to the grid size.
 
-An example of this could be separating triggers from each other if you'd like to make them more organized and neat. It also allows you to get a clearer reference if you're trying to make objects bigger or smaller.
+An example of this is separating triggers from each other to make them more organized. It also provides a clearer reference if you are trying to make objects bigger or smaller.
 
-It is also particularly useful if you have different deco details. Some grid sizes may be better to use as a reference. When creating small details in a block design, you can make the grid size smaller so you can line anything up to make it look as smooth as possible.
+Additionally, this feature is particularly useful when working with different decorative details, as certain grid sizes may serve as better references. When creating small details in a block design, you can make the grid size smaller so you can line everything up as smoothly as possible.
 
-On the other hand, if you're creating a large background, a bigger grid size might be better so you can see everything more clearly and use bigger reference points if you're trying to recreate something, similar to the grid method in portraiture drawing.
+On the other hand, if you are creating a large background, a bigger grid size might be better so you can see everything more clearly and use larger reference points, similar to the grid method used in portrait drawing
 
-You can use Shift+G to toggle on your custom grid size, or use Ctrl+G to swap between them, or just simply click the button with the word "Grid" on it to adjust it.
+You can use Shift+G to toggle your custom grid size, Ctrl+G to swap between them, or simply click the "Grid" button to adjust it.
 
 {{< youtube YCXkqCEfpwY >}}
 
 # 3. View Tab
 
-The view tab is a new feature in the 2.209 update that was put into the main editor tools alongside Build, Edit, and Delete. Prior to this update, players would be forced to go to the pause menu, enable something, and look back. Some of the settings in the View tab weren't even a thing before 2.209. It allows you to turn on many visual settings, like making Shader effects visible or off, Turning the grid on or off, Ignore Damage, LDM, etc.
+The View tab is a new feature in the 2.209 update that was put alongside the main editor tools, Build, Edit, and Delete. Prior to this update, players were forced to go to the pause menu, enable their desired option, and then unpause. Some of the features of the View tab didn't exist before 2.209. Now, the View tab allows you to turn on and off many visual settings, like making Shader effects visible or off, turning the grid on or off, Ignore Damage, or LDM at your will.
 
 Most options that were previously in the pause menu are located here now. If you can't find an option, such as Select Filter, it's probably relocated here now.
 
-Here is an image of the new View Tab.
+Here is an image of the new View Tab:
 
 {{< img src="https://lh3.googleusercontent.com/d/1NL3O7U3qQ1JROgPTFxFvYpfJ7iGXoPDK" >}}
 
-The list of options here are:
+The list of options here is:
 
-* **Preview Mode:** Preview the level how you would see it in-game when you are playing it.
-* **Hitbox:** Shows hitboxes of objects
+* **Preview Mode:** Preview the level as you would see it in-game when you are playing it.
+* **Hitbox:** Shows hitboxes of objects.
 * **Hide Invis:** Toggles on or off showing objects with the "Hide" option enabled in Edit Group -> Extra.
 * **LDM:** Preview the level how you would see it in-game with Low-Detail Mode.
 * **Anims:** Toggles on/off animations of objects in the animated tab.
@@ -82,7 +77,7 @@ The list of options here are:
 * **Ground:** Shows/Hides the ground.
 * **O Info**: Shows/Hides object information when selecting them.
 * **Grid:** Toggles on/off the editor grid.
-* **Select Filter:** Toggles on/off the select filter option, allowing you to choose certain objects.
+* **Select Filter:** Toggles on/off the select filter option, allowing you to select certain objects.
 * **Ignore Damage:** Ignores deaths during playtesting in the editor.
 * **Effect Lines:** Toggles on/off trigger lines that show when it will occur.
 * **Dur Lines:** Toggles on/off trigger lines that show the duration of the trigger.
@@ -90,7 +85,7 @@ The list of options here are:
 * **BPM Lines:** Shows/Hides lines made from the BPM trigger.
 * **Local Markers:** Shows/Hides where you have died in the level.
 * **Global Markers:** Shows/Hides where everyone has died in the level.
-* **Marker Labels:** Shows/Hides the amount of times someone has died there.
+* **Marker Labels:** Shows/Hides the number of times someone has died there.
 * **Trace In:** Traces the trigger that activates/affects the selected object.
 * **Trace Out:** Traces the objects that the trigger activates/affects; the opposite of Trace In.
 
@@ -104,11 +99,11 @@ Here is a video showcasing Death Markers:
 
 # 4. Helper Tab
 
-The Helper Tab holds buttons that were previously in the Pause Menu prior to the 2.209 update. Options such as Build Helper, Select All, Copy + Color, Reset Unused, Select all Left, are all relocated here. It should also be noted that several creators have not known that you can actually scroll down in this tab, revealing way more options. The buttons all do the same thing, and you should try experimenting them if you haven't already.
+The Helper Tab holds buttons that were previously in the Pause Menu prior to the 2.209 update. Options such as Build Helper, Select All, Copy + Color, Reset Unused, and Select All Left are all relocated here. It should also be noted that several creators have not known that you can actually scroll down in this tab, revealing more options. The buttons all have identical functions as they did before. Try experimenting with them if you haven't already.
 
 {{< img src="https://lh3.googleusercontent.com/d/1giHyQEabmYcDiHhoXN2yDs04ZL1oEqzD" >}}
 
-The list of options here are:
+The list of options here is:
 
 * **Regroup:** Assigns existing triggers the lowest next free group.
 * **Build Helper:** Assigns the next free group IDs when copying a trigger setup.
@@ -120,16 +115,16 @@ The list of options here are:
 * **Distribute Y:** Evenly distributes selected objects on the Y axis with the same spacing.
 * **Select All:** Selects every object in the current layer; can be used with Select Filter option in the Delete tab.
 * **Select All Left:** Selects every object in the current layer, but only to the left of the editor; can be used with Select Filter option in the Delete tab.
-* **Select All Right:** Selects every object in the current layer, but only to the right of the editor; can be used with Select Filter option in the Delete tab.
+* **Select All Right:** Selects every object in the current layer, but only to the right of the editor; can be used with the Select Filter option in the Delete tab.
 * **New Group X:** For multiple groups, new IDs are ordered horizontally, from least to greatest (Left to right).
 * **New Group Y:** For multiple groups, new IDs are ordered vertically, from greatest to least (Top to bottom).
-* **Copy + Color:** Copies an object while saving it’s color; good for transferring assets over to other levels.
+* **Copy + Color:** Copies an object while saving its color; good for transferring assets over to other levels.
 * **Paste + Color:** Pastes an object keeping its color using the next available Color channels.
 * **Create Extras:** Adds extra details for certain objects such as filling in the 2.1 rock objects.
-* **Unlock Layers:** Unlocks every locked layer at the same time.
+* **Unlock Layers:** Unlocks every locked layer at once.
 * **Reset Unused:** Resets every color channel that is not targeting an object to white. (Unused color channels)
-* **Uncheck Portals:** Removes the lines that mark a gamemode portal’s border when you enable the "Preview" option in edit group.
+* **Uncheck Portals:** Removes the lines that mark a game mode portal’s border when you enable the "Preview" option in the edit group.
 
-Here is a video showcasing these features:
+Here is a video showcasing the Helper tab:
 
 {{< youtube Jpp53xs6kZ4 >}}
